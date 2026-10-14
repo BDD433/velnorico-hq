@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:37:08Z",
+ "updated": "2026-10-14T20:37:09Z",
  "bots": [
   {
    "id": "oki",
@@ -33,9 +33,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Writing pin text",
-   "last_active": "2026-10-14T20:37:08Z"
+   "state": "idle",
+   "task": "Waiting for next task",
+   "last_active": "2026-10-14T20:37:09Z"
   },
   {
    "id": "ledger",
