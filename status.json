@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-14T20:29:37Z",
+ "updated": "2026-10-14T20:31:36Z",
  "bots": [
   {
    "id": "oki",
    "name": "Oki",
    "emoji": "🦉",
    "role": "Chief",
-   "state": "working",
-   "task": "Publishing the HQ team office page",
-   "last_active": "2026-10-14T20:29:36Z"
+   "state": "idle",
+   "task": "HQ team office page is live",
+   "last_active": "2026-10-14T20:31:36Z"
   },
   {
    "id": "scout",
@@ -195,9 +195,9 @@
  ],
  "activity": [
   {
-   "time": "2026-10-14T20:29:37Z",
-   "bot": "Pipeline",
-   "message": "Chicken Lady Mug moved Listing → Listing"
+   "time": "2026-10-14T20:31:36Z",
+   "bot": "Oki",
+   "message": "HQ team office page is live"
   },
   {
    "time": "2026-10-14T20:29:36Z",
