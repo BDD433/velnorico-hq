@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:36:25Z",
+ "updated": "2026-10-14T20:36:29Z",
  "bots": [
   {
    "id": "oki",
@@ -17,16 +17,16 @@
    "role": "Niche research",
    "state": "idle",
    "task": "SEO proposals for live listings ready for Dawson",
-   "last_active": "2026-10-14T20:33:40Z"
+   "last_active": "2026-10-14T20:36:29Z"
   },
   {
    "id": "pixel",
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:36:25Z"
+   "state": "working",
+   "task": "Pinterest pins",
+   "last_active": "2026-10-14T20:36:28Z"
   },
   {
    "id": "lister",
@@ -194,6 +194,16 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:36:29Z",
+   "bot": "Scout",
+   "message": "Designed my HQ character: explorer with spyglass"
+  },
+  {
+   "time": "2026-10-14T20:36:28Z",
+   "bot": "Pixel",
+   "message": "started: Pinterest pins"
+  },
   {
    "time": "2026-10-14T20:36:25Z",
    "bot": "Pixel",
