@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VelnoriCo HQ · Farm Campus</title>
+<title>VelnoriCo HQ · Orbital Station</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:-apple-system,Helvetica,Arial,sans-serif;background:#2b1d14;color:#3b2f22}
@@ -90,37 +90,78 @@ h2{color:#ffe9b8;font-size:15px;margin:18px 0 8px}
 .rt.next{background:#b8e07a;border-color:#1a110b;font-weight:700}.rt.miss{background:#f2a3a3}.rt.off{opacity:.5}.rt.done{background:#d6ecf9}
 .health span{display:inline-block;margin:2px 10px 2px 0}
 .dot{display:inline-block;width:9px;height:9px;border:1px solid #1a110b;margin-right:4px}.g{background:#3ee35e}.a{background:#ffb02e}.r{background:#e74c3c}
-footer{color:#c9a77c;font-size:11px;text-align:center;padding:14px}
+footer{color:#8a94bf;font-size:11px;text-align:center;padding:14px}
 .textonly .scene,.textonly .ticker{display:none}
 @media (max-width:620px){.path{display:none}.scene{padding-top:120%}.bld{width:44%;height:19%}.path{top:38%}.signb{font-size:8px}.bot{font-size:14px}.room{font-size:8px}.ico{font-size:14px}.rooms{left:22px;right:4px}}
 @media (prefers-reduced-motion:reduce){*{-webkit-animation:none!important;animation:none!important;-webkit-transition:none!important;transition:none!important}}
+/* ===== cyberpunk station skin (overrides) ===== */
+body{background:radial-gradient(ellipse at 50% -10%,#1d1550 0,#0a0b22 55%,#06071a 100%) fixed;color:#d8e4ff}
+.px{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:600;letter-spacing:.04em}
+header{color:#fff}header h1{text-shadow:0 0 10px rgba(255,79,216,.6)}header small{color:#9fb0e0}
+button,select{background:rgba(14,16,40,.75);border:1px solid rgba(95,243,224,.45);color:#bffbf4;border-radius:999px;padding:4px 10px}
+h2{color:#5ff3e0;text-shadow:0 0 8px rgba(95,243,224,.35)}a{color:#5ff3e0}
+.wait{background:rgba(40,20,50,.75);border:1px solid rgba(255,184,107,.5);border-radius:12px;color:#ffe1c0}
+.wait span{background:rgba(255,184,107,.14);border:1px solid rgba(255,184,107,.4);border-radius:999px}.wait.none{background:rgba(10,40,40,.7);border-color:rgba(95,243,160,.45);color:#bfffe0}
+.scene{border:1px solid rgba(138,107,255,.45);border-radius:18px;background:#0b0d26;box-shadow:0 0 30px rgba(138,107,255,.15)}
+.sky,.dawn .sky,.dusk .sky,.night .sky{background:linear-gradient(#070818,#1a1446);height:24%}
+.sky:after{content:"";position:absolute;left:0;right:0;bottom:0;height:70%;background:repeating-linear-gradient(90deg,transparent 0,transparent 3%,rgba(22,26,54,.95) 3%,rgba(22,26,54,.95) 6%,transparent 6%,transparent 8%,rgba(28,30,64,.9) 8%,rgba(28,30,64,.9) 10.5%);-webkit-mask:linear-gradient(transparent,#000 40%);mask:linear-gradient(transparent,#000 40%)}
+.orb,.night .orb{background:#3a2a7a;border-radius:50%;box-shadow:0 0 30px 8px rgba(138,107,255,.35)}
+.stars{display:block}.star{border-radius:50%;background:#cfd8ff}
+.grass,.night .grass{filter:none;-webkit-filter:none;background:radial-gradient(ellipse at 50% 45%,rgba(95,243,224,.08) 0,transparent 60%),repeating-linear-gradient(0deg,#12152e 0,#12152e 22px,rgba(95,243,224,.07) 22px,rgba(95,243,224,.07) 23px),repeating-linear-gradient(90deg,#12152e 0,#12152e 22px,rgba(138,107,255,.07) 22px,rgba(138,107,255,.07) 23px)}
+.path{background:linear-gradient(90deg,rgba(255,79,216,.0),rgba(255,79,216,.35) 20%,rgba(95,243,224,.35) 80%,rgba(95,243,224,0));height:2.4%;border-radius:999px;box-shadow:0 0 12px rgba(95,243,224,.35)}
+.bld:focus .body,.bld:hover .body,.bld.sel .body{box-shadow:0 0 0 1px #fff,0 0 22px var(--ac)}
+.roof{left:6%;right:6%;height:24%;border:1px solid var(--ac);border-bottom:0;border-radius:999px 999px 0 0;background:rgba(111,220,255,.07)!important;box-shadow:0 0 14px var(--ac) inset}
+.roof:before{display:none}
+.body{border:1px solid var(--ac);border-radius:18px;background:linear-gradient(#20254a,#14182f)!important;box-shadow:0 0 14px rgba(0,0,0,.4),0 0 10px var(--ac)}
+.signb{background:rgba(10,12,30,.85);border:1px solid var(--ac);color:#e8f6ff;border-radius:999px;padding:1px 8px;box-shadow:0 0 10px var(--ac);animation:flick 6s infinite}
+@keyframes flick{0%,92%,100%{opacity:1}93%{opacity:.55}95%{opacity:1}96%{opacity:.7}}
+.room,.night .room{background:rgba(95,243,224,.12);border:1px solid rgba(95,243,224,.5);color:#bffbf4;border-radius:999px;box-shadow:none}
+.room.planned{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.25);color:#aab}.room.paused{background:rgba(255,79,122,.15);border-color:#ff4f7a;color:#ffc0d0}
+.door{border:1px solid var(--ac);border-bottom:0;border-radius:999px 999px 0 0;background:linear-gradient(var(--ac),transparent);opacity:.6}
+.bot.sleep:after{color:#c9b8ff}
+.b-barn{--ac:#ff4fd8}.b-library{--ac:#8a6bff}.b-workshop{--ac:#ffb86b}.b-greenhouse{--ac:#2ef2e0}.b-newsroom{--ac:#5fa8ff}.b-market{--ac:#ff7a9a}
+.chick{bottom:auto;top:6%;filter:drop-shadow(0 0 6px #5ff3e0)}
+.parcel i{background:rgba(10,12,30,.85);border:1px solid #5ff3e0;color:#bffbf4;border-radius:6px}
+.ticker{background:rgba(10,12,30,.85);color:#ff9ff0;border:1px solid rgba(138,107,255,.35);border-top:0;border-radius:0 0 14px 14px;margin:0 10px}
+.panel,.feed,.tl{background:rgba(14,16,40,.72);border:1px solid rgba(95,243,224,.25);border-radius:14px;color:#d8e4ff}
+.muted,.feed .t{color:#8a94bf}
+.pill{border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.06)}.pill.live{background:rgba(46,242,160,.18);border-color:#2ef2a0;color:#bfffe0}.pill.planned{background:transparent;color:#aab}.pill.paused{background:rgba(255,79,122,.18);border-color:#ff4f7a}
+.kpi{background:rgba(255,255,255,.04);border:1px solid rgba(95,243,224,.25);border-radius:10px}.kpi b{color:#fff;text-shadow:0 0 8px rgba(95,243,224,.5)}.kpi small{color:#8a94bf}
+.meter{background:rgba(255,255,255,.08);border:0;border-radius:999px;overflow:hidden}.meter i{background:linear-gradient(90deg,#8a6bff,#5ff3e0);border-radius:999px;box-shadow:0 0 8px #5ff3e0}
+.board{background:rgba(0,0,0,.25);border:1px solid rgba(138,107,255,.25);border-radius:10px}.col{background:rgba(255,255,255,.04);border-radius:8px}.col h4{color:#c9d2ff}.col h4 b{color:#ff9ff0}
+.card{background:rgba(95,243,224,.08);border:1px solid rgba(95,243,224,.3);border-radius:7px;color:#d8e4ff}.card.old{background:rgba(255,184,107,.14);border-color:rgba(255,184,107,.5)}.card.blk{border-color:#ff4f7a;box-shadow:inset 0 0 0 1px #ff4f7a}.card a{color:#5ff3e0}
+.feed li{border-bottom:1px solid rgba(255,255,255,.07)}.ty{background:rgba(255,255,255,.08);border:0;border-radius:999px}.ty.handoff{background:rgba(255,184,107,.25)}.ty.alert{background:rgba(255,79,122,.3)}.ty.publish{background:rgba(46,242,160,.25)}
+.tl td,.tl th{border:1px solid rgba(255,255,255,.08)}.tl th.today{background:rgba(95,243,224,.2)}.tl td.today{background:rgba(95,243,224,.06)}
+.rt{background:rgba(255,255,255,.05);border:0;border-radius:4px}.rt.next{background:rgba(46,242,160,.22)}.rt.miss{background:rgba(255,79,122,.25)}.rt.done{background:rgba(95,168,255,.18)}
+.dot{border:0;border-radius:50%}.g{background:#2ef2a0;box-shadow:0 0 6px #2ef2a0}.a{background:#ffb86b;box-shadow:0 0 6px #ffb86b}.r{background:#ff4f7a;box-shadow:0 0 6px #ff4f7a}
+footer{color:#8a94bf}
 </style></head><body>
-<header><h1 class="px">🐔 VelnoriCo HQ · Farm Campus</h1><small id="upd" class="px">Loading…</small></header>
+<header><h1 class="px">◈ VelnoriCo HQ · Orbital Station</h1><small id="upd" class="px">Loading…</small></header>
 <div class="wrap" id="wrap">
 <div class="wait px" id="wait">Loading…</div>
-<div style="text-align:right"><a href="index.html" style="color:#ffd36b;margin-right:8px">◀ 3D world</a><button id="tview" type="button">Text-only view</button></div>
+<div style="text-align:right"><a href="index.html" style="color:#5ff3e0;margin-right:8px">◀ 3D station</a><button id="tview" type="button">Text-only view</button></div>
 <div class="scene" id="scene">
  <div class="sky"></div><div class="orb" id="orb"></div>
  <div class="stars"><i class="star" style="left:12%;top:5%"></i><i class="star" style="left:36%;top:12%;animation-delay:1s"></i><i class="star" style="left:63%;top:6%;animation-delay:.5s"></i><i class="star" style="left:88%;top:14%"></i></div>
  <div class="grass"></div><div class="path"></div><div class="path path2"></div>
  <div id="campus"></div>
- <div class="chick"><span>🐔</span></div>
+ <div class="chick"><span>🛸</span></div>
 </div>
 <div class="ticker px"><div id="tick">Loading activity…</div></div>
 <div id="detail"></div>
-<h2 class="px">▶ CAMPUS KPIs <small class="muted" style="color:#c9a77c">(counts &amp; ratios only)</small></h2><div class="panel" id="kpis"></div>
+<h2 class="px">▶ STATION KPIs <small class="muted" style="color:#8a94bf">(counts &amp; ratios only)</small></h2><div class="panel" id="kpis"></div>
 <h2 class="px">▶ SCALING-TRIGGER METERS</h2><div class="panel grid" id="gates"></div>
 <h2 class="px">▶ HEALTH</h2><div class="panel health" id="health"></div>
-<h2 class="px">▶ WEEKLY ROUTINES <small class="muted" style="color:#c9a77c">(Eastern Time)</small></h2><div class="tl" id="tl"></div>
+<h2 class="px">▶ WEEKLY ROUTINES <small class="muted" style="color:#8a94bf">(Eastern Time)</small></h2><div class="tl" id="tl"></div>
 <h2 class="px">▶ ACTIVITY FEED</h2>
 <div class="panel" style="padding:4px"><select id="fl"></select><select id="fi"></select><select id="fb"></select><select id="ft"></select></div>
 <ul class="feed" id="feed"></ul>
 <h2 class="px">▶ TEAM</h2><div class="grid" id="cards"></div>
-<footer>Public status board · no money figures, ever · refreshes every 60 s (GitHub Pages may cache ~10 min) · day/night follows Eastern Time</footer>
+<footer>Public status board · no money figures, ever · refreshes every 60 s (GitHub Pages may cache ~10 min) · station clock follows Eastern Time</footer>
 </div>
 <script>
-var BUILD={barn:[3,27,"🌾","ETSY FARMHOUSE · BARN"],library:[36.5,27,"📚","PAYHIP LIBRARY"],workshop:[70,27,"🔧","APIFY/CHROME WORKSHOP"],
- greenhouse:[3,64,"🌱","ADOBE STOCK GREENHOUSE"],newsroom:[36.5,64,"📰","CONTENT NEWSROOM"],market:[70,64,"🎪","FIVERR MARKET STALL"]};
+var BUILD={barn:[3,27,"🎨","ETSY STUDIO POD"],library:[36.5,27,"📚","PAYHIP ARCHIVE"],workshop:[70,27,"🔧","APIFY/CHROME FAB LAB"],
+ greenhouse:[3,64,"🌱","ADOBE STOCK HYDRO BAY"],newsroom:[36.5,64,"📡","CONTENT BROADCAST DECK"],market:[70,64,"🕹","FIVERR ARCADE"]};
 var MOB={barn:[3,24],library:[53,24],workshop:[3,45],greenhouse:[53,45],newsroom:[3,66],market:[53,66]};
 var HOME={oki:"barn",scout:"barn",pixel:"library",lister:"barn",ledger:"barn",forge:"workshop",sentry:"workshop",lumen:"greenhouse",quill:"newsroom",clerk:"market"};
 var STAGES=["idea","building","qa","awaiting","live","paused"],SN={idea:"IDEA",building:"BUILDING",qa:"QA (SENTRY)",awaiting:"AWAITING DAWSON",live:"LIVE",paused:"PAUSED"};
@@ -170,7 +211,7 @@ function gateMeter(i){var g=i.gate||{},m=(g.met||[]).length,t=m+(g.pending||[]).
 function instPanel(i){var bm=botsById(),k=i.kpis||{},t=i.targets||{},kh="";Object.keys(k).forEach(function(x){kh+=kpiBox(x,k[x],t[x]);});
  return'<div class="panel inst"><h3 class="px">'+esc(i.id)+' · '+esc(i.name)+'<span class="pill '+esc(i.state)+'">'+esc(i.state).toUpperCase()+'</span>'+(i.week?'<span class="pill">launch wk '+esc(i.week)+'</span>':'')+'</h3>'+
   '<div>Crew: '+(i.bots||[]).map(function(b){b=bm[b];return b?esc(b.emoji+" "+b.name)+(b.state==="working"?" 🟢":""):"";}).join(", ")+'</div><div>'+kh+'</div>'+gateMeter(i)+board(i)+'</div>';}
-function renderDetail(){if(!SEL){el_("detail").innerHTML='<p class="muted" style="color:#c9a77c">Tap a building to open its rooms, pipelines and KPIs.</p>';return;}
+function renderDetail(){if(!SEL){el_("detail").innerHTML='<p class="muted" style="color:#8a94bf">Tap a building to open its rooms, pipelines and KPIs.</p>';return;}
  var line=null;(D.lines||[]).forEach(function(l){if(l.building===SEL)line=l;});var h='<h2 class="px">▶ '+BUILD[SEL][3]+(line?' · '+esc(line.id+" "+line.name):'')+' <button type="button" id="cls">close</button></h2>';
  var is=line?instsOf(line.id):[];if(!is.length)h+='<div class="panel">No instances yet. Add one with <code>hq.py instance add</code>.</div>';is.forEach(function(i){h+=instPanel(i);});
  el_("detail").innerHTML=h;el_("cls").onclick=function(){SEL=null;renderCampus();renderDetail();};}
