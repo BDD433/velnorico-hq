@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T23:50:19Z",
+ "updated": "2026-10-14T23:50:20Z",
  "bots": [
   {
    "id": "oki",
@@ -25,7 +25,7 @@
    "role": "Niche research",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-14T23:50:19Z",
+   "last_active": "2026-10-14T23:50:20Z",
    "lines": [
     "L0",
     "L1",
@@ -347,9 +347,24 @@
    "name": "Coop Chore Chart & Safe Treats Cheat Sheet",
    "stage": "Idea",
    "instance": "L0-a"
+  },
+  {
+   "id": "birding-collection",
+   "name": "Birding collection",
+   "instance": "L0-a",
+   "stage": "Idea",
+   "since": "2026-10-14T23:50:20Z"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T23:50:20Z",
+   "bot": "Pipeline",
+   "message": "Birding collection moved → Idea",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
   {
    "time": "2026-10-14T23:50:19Z",
    "bot": "Scout",
