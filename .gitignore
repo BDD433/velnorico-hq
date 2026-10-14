@@ -1,0 +1,8 @@
+# Never publish money or local state
+private/
+*money.html
+*money.json
+.push_state.json
+.lock
+*.tmp
+.env
