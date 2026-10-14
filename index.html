@@ -195,7 +195,7 @@ function renderTimeline(){var R=routineState(),bm=botsById(),bots=[];R.list.forE
 function renderHealth(R){var a=age(D.updated),c=a<3600?"g":a<86400?"a":"r",miss=R.list.filter(function(x){return x[1]==="miss";}).length,sl=(D.bots||[]).filter(sleepy).length;
  el_("health").innerHTML='<span><i class="dot '+c+'"></i>status.json '+ago(D.updated)+'</span><span><i class="dot '+(miss?"r":"g")+'"></i>'+miss+' missed routines</span>'+
   '<span><i class="dot '+(sl?"a":"g")+'"></i>'+sl+' bots asleep &gt;24h</span><span><i class="dot g"></i>money guard: hq.py + pre-commit + CI</span>'+
-  '<span><img alt="CI" style="vertical-align:middle;height:18px" src="https://github.com/BDD433/velnorico-hq/actions/workflows/money-check.yml/badge.svg"></span>'+
+  '<span><img alt="" onerror="this.parentNode.style.display=\'none\'" style="vertical-align:middle;height:18px" src="https://github.com/BDD433/velnorico-hq/actions/workflows/money-check.yml/badge.svg"></span>'+
   (D.health||[]).map(function(x){return'<span><i class="dot '+(x.ok?"g":"r")+'"></i>'+esc(x.label)+'</span>';}).join("");}
 function opts(id,lab,vals,cur){var h='<option value="">'+lab+': all</option>';vals.forEach(function(v){h+='<option value="'+esc(v)+'"'+(v===cur?" selected":"")+'>'+esc(v)+'</option>';});el_(id).innerHTML=h;}
 function uniq(a){var o=[];a.forEach(function(x){if(x&&o.indexOf(x)<0)o.push(x);});return o;}
