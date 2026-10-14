@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VelnoriCo HQ · Farmhouse Office</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,Helvetica,Arial,sans-serif;background:#2b1d14;color:#3b2f22}
+.px{font-family:"Courier New",monospace;font-weight:700;letter-spacing:.02em}
+header{color:#ffe9b8;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+header h1{margin:0;font-size:18px}header small{opacity:.8;font-size:12px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 10px 20px}
+/* scene */
+.scene{position:relative;width:100%;padding-top:62%;overflow:hidden;border:4px solid #1a110b;image-rendering:pixelated;background:#c99a63}
+.sky{position:absolute;left:0;right:0;top:0;height:34%;background:#8fd3ff;-webkit-transition:background 2s;transition:background 2s}
+.dawn .sky{background:#ffb88a}.dusk .sky{background:#c46b7a}.night .sky{background:#141b3d}
+.orb{position:absolute;top:10%;width:7%;padding-top:7%;border-radius:2px;background:#ffe14a;box-shadow:0 0 0 4px rgba(255,225,74,.3)}
+.night .orb{background:#f2f2e6;box-shadow:0 0 0 4px rgba(255,255,255,.15)}
+.stars{display:none}.night .stars{display:block}
+.star{position:absolute;width:3px;height:3px;background:#fff;-webkit-animation:tw 3s infinite;animation:tw 3s infinite}
+@-webkit-keyframes tw{50%{opacity:.2}}@keyframes tw{50%{opacity:.2}}
+.wall{position:absolute;left:0;right:0;top:0;height:58%;background:
+ repeating-linear-gradient(90deg,#9b5f36 0,#9b5f36 6%,#8a5230 6%,#8a5230 6.6%)}
+.win{position:absolute;top:6%;height:30%;border:6px solid #5b3820;background:transparent;overflow:hidden}
+.win:after{content:"";position:absolute;left:50%;top:0;bottom:0;width:4px;margin-left:-2px;background:#5b3820}
+.floor{position:absolute;left:0;right:0;bottom:0;height:42%;background:
+ repeating-linear-gradient(0deg,#c99a63 0,#c99a63 22%,#b4844f 22%,#b4844f 25%)}
+.sign{position:absolute;left:50%;top:41%;-webkit-transform:translateX(-50%);transform:translateX(-50%);background:#f3dfb0;border:3px solid #5b3820;padding:2px 8px;font-size:11px;color:#5b3820;white-space:nowrap}
+.st{position:absolute;width:19%;text-align:center}
+.bot{font-size:26px;line-height:1;display:inline-block;position:relative}
+.prop{font-size:20px;display:inline-block;vertical-align:bottom}
+.desk{height:10px;background:#6b4226;border:2px solid #3d2414;margin:0 6%}
+.tag{font-size:10px;color:#fff;background:rgba(0,0,0,.55);display:inline-block;padding:1px 5px;margin-top:3px}
+.light{display:inline-block;width:7px;height:7px;background:#999;margin-right:3px}
+.working .light{background:#3ee35e}
+.bub{position:absolute;bottom:100%;left:50%;width:150%;margin-left:-75%;margin-bottom:4px;background:#fffbe9;border:2px solid #1a110b;font-size:9px;line-height:1.25;padding:3px 4px;color:#1a110b;max-height:4.2em;overflow:hidden}
+.bub:after{content:"";position:absolute;top:100%;left:50%;margin-left:-4px;border:4px solid transparent;border-top-color:#1a110b}
+.working .bot{-webkit-animation:bob .5s steps(2) infinite;animation:bob .5s steps(2) infinite}
+@-webkit-keyframes bob{50%{-webkit-transform:translateY(-3px)}}@keyframes bob{50%{transform:translateY(-3px)}}
+.working .prop{-webkit-animation:wig .6s steps(2) infinite;animation:wig .6s steps(2) infinite}
+@-webkit-keyframes wig{50%{-webkit-transform:rotate(-12deg)}}@keyframes wig{50%{transform:rotate(-12deg)}}
+.idle .bot{opacity:.85}
+.zzz{display:none;position:absolute;right:-10px;top:-8px;font-size:11px;color:#fff;-webkit-animation:zz 2s infinite;animation:zz 2s infinite}
+.idle .zzz{display:block}
+@-webkit-keyframes zz{0%{opacity:0;-webkit-transform:translate(0,0)}50%{opacity:1}100%{opacity:0;-webkit-transform:translate(6px,-10px)}}
+@keyframes zz{0%{opacity:0;transform:translate(0,0)}50%{opacity:1}100%{opacity:0;transform:translate(6px,-10px)}}
+.cof{display:none;font-size:13px}.idle .cof{display:inline}
+.chick{position:absolute;bottom:3%;font-size:20px;-webkit-animation:walk 26s linear infinite;animation:walk 26s linear infinite}
+.chick span{display:inline-block;-webkit-animation:peck .4s steps(2) infinite;animation:peck .4s steps(2) infinite}
+@-webkit-keyframes walk{0%{left:-6%;-webkit-transform:scaleX(-1)}48%{left:98%;-webkit-transform:scaleX(-1)}50%{left:98%;-webkit-transform:scaleX(1)}98%{left:-6%;-webkit-transform:scaleX(1)}100%{left:-6%;-webkit-transform:scaleX(-1)}}
+@keyframes walk{0%{left:-6%;transform:scaleX(-1)}48%{left:98%;transform:scaleX(-1)}50%{left:98%;transform:scaleX(1)}98%{left:-6%;transform:scaleX(1)}100%{left:-6%;transform:scaleX(-1)}}
+@-webkit-keyframes peck{50%{-webkit-transform:translateY(-2px)}}@keyframes peck{50%{transform:translateY(-2px)}}
+/* ticker */
+.ticker{background:#1a110b;color:#ffd36b;overflow:hidden;white-space:nowrap;border:4px solid #1a110b;border-top:0;font-size:13px;padding:5px 0}
+.ticker div{display:inline-block;padding-left:100%;-webkit-animation:tick 60s linear infinite;animation:tick 60s linear infinite}
+@-webkit-keyframes tick{100%{-webkit-transform:translateX(-100%)}}@keyframes tick{100%{transform:translateX(-100%)}}
+h2{color:#ffe9b8;font-size:15px;margin:18px 0 8px}
+/* conveyor */
+.belt{display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;background:#3a3a3a;border:4px solid #1a110b;padding:8px 6px 18px;position:relative}
+.belt:after{content:"";position:absolute;left:0;right:0;bottom:4px;height:8px;background:repeating-linear-gradient(90deg,#555 0,#555 10px,#222 10px,#222 20px);background-size:20px 8px;-webkit-animation:roll 1s linear infinite;animation:roll 1s linear infinite}
+@-webkit-keyframes roll{100%{background-position:20px 0}}@keyframes roll{100%{background-position:20px 0}}
+.stg{flex:0 0 170px;margin-right:6px;background:#4a4a4a;padding:6px}
+.stg h3{margin:0 0 6px;font-size:12px;color:#fff}.stg h3 b{color:#ffd36b}
+.box{background:#e8c48c;border:2px solid #7a4b2a;padding:5px;margin-bottom:5px;font-size:12px}
+.box a{color:#5b2d0e}.box .k{font-size:10px;color:#6b4a2a}
+/* desks list */
+.cards{display:flex;flex-wrap:wrap;margin:0 -4px}
+.cd{flex:1 1 180px;margin:4px;background:#f3dfb0;border:3px solid #1a110b;padding:8px;font-size:13px}
+.cd .n{font-weight:700}.cd .w{font-size:11px;color:#6b4a2a;margin-top:4px}
+.feed{list-style:none;margin:0;padding:0;background:#f3dfb0;border:3px solid #1a110b}
+.feed li{padding:6px 8px;border-bottom:1px solid #d9bf8c;font-size:13px}.feed .t{color:#6b4a2a;font-size:11px}
+footer{color:#c9a77c;font-size:11px;text-align:center;padding:14px}
+@media (max-width:520px){.bub{font-size:7px;width:170%;margin-left:-85%}.bot{font-size:20px}.prop{font-size:15px}.tag{font-size:8px}}
+</style></head><body>
+<header><h1 class="px">🐔 VelnoriCo HQ</h1><small id="upd" class="px">Loading…</small></header>
+<div class="wrap">
+<div class="scene" id="scene">
+ <div class="wall"></div>
+ <div class="win" style="left:6%;width:26%"><div class="sky"></div><div class="orb" id="orb1" style="left:20%"></div><div class="stars"><i class="star" style="left:60%;top:20%"></i><i class="star" style="left:30%;top:60%;animation-delay:1s"></i></div></div>
+ <div class="win" style="left:68%;width:26%"><div class="sky"></div><div class="stars"><i class="star" style="left:40%;top:30%;animation-delay:.5s"></i><i class="star" style="left:75%;top:65%"></i></div></div>
+ <div class="sign px">VELNORICO · FARMHOUSE OFFICE</div>
+ <div class="floor"></div>
+ <div id="stations"></div>
+ <div class="chick"><span>🐔</span></div>
+</div>
+<div class="ticker px"><div id="tick">Loading activity…</div></div>
+<h2 class="px">▶ PRODUCT CONVEYOR</h2><div class="belt" id="belt"></div>
+<h2 class="px">▶ DESKS</h2><div class="cards" id="cards"></div>
+<h2 class="px">▶ ACTIVITY LOG</h2><ul class="feed" id="feed"></ul>
+<footer>Updates every 60 s · times in Eastern Time · sky follows ET clock</footer>
+</div>
+<script>
+var STAGES=["Idea","Design","Listing","Pin","Live"];
+var POS={oki:[40.5,64,"🗂️"],scout:[3,40,"🔭"],pixel:[22,66,"🖼️"],lister:[60,66,"⌨️"],ledger:[78,40,"🧮🪙"]};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function et(iso){var d=new Date(iso);if(!iso||isNaN(d))return"—";
+ try{return d.toLocaleString("en-US",{timeZone:"America/New_York",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET";}catch(e){return d.toLocaleString();}}
+function ago(iso){var s=(Date.now()-new Date(iso).getTime())/1000;if(isNaN(s))return"";if(s<90)return"just now";
+ if(s<5400)return Math.round(s/60)+" min ago";if(s<129600)return Math.round(s/3600)+" h ago";return Math.round(s/86400)+" d ago";}
+function etHour(){try{return parseInt(new Date().toLocaleString("en-US",{timeZone:"America/New_York",hour:"numeric",hour12:false}),10)%24;}catch(e){return new Date().getHours();}}
+function sky(){var h=etHour(),c=h>=6&&h<8?"dawn":h>=8&&h<18?"day":h>=18&&h<20?"dusk":"night";
+ document.getElementById("scene").className="scene "+c;
+ var o=document.getElementById("orb1");var f=c==="night"?((h+6)%24)/12:(h-6)/14;o.style.left=Math.max(5,Math.min(80,f*80))+"%";}
+function render(d){
+ var h="",c="";(d.bots||[]).forEach(function(b){var p=POS[b.id]||[0,0,""],w=b.state==="working";
+  h+='<div class="st '+(w?"working":"idle")+'" style="left:'+p[0]+'%;top:'+p[1]+'%">'+
+   '<div class="bub">'+esc(w?b.task:(b.task&&b.task!=="Waiting for next task"?"☕ "+b.task:"☕ on break"))+'</div>'+
+   '<span class="bot">'+esc(b.emoji)+'<span class="zzz">z z</span></span><span class="prop">'+p[2]+'</span><span class="cof">☕</span>'+
+   '<div class="desk"></div><div class="tag px"><span class="light"></span>'+esc(b.name)+'</div></div>';
+  c+='<div class="cd"><div class="n">'+esc(b.emoji)+' '+esc(b.name)+' <small>· '+esc(b.role)+'</small></div><div>'+(w?"🟢 Working: ":"⚪ Idle: ")+esc(b.task)+
+   '</div><div class="w">Last active '+et(b.last_active)+' ('+ago(b.last_active)+')</div></div>';});
+ document.getElementById("stations").innerHTML=h;document.getElementById("cards").innerHTML=c;
+ h="";STAGES.forEach(function(s){var it=(d.products||[]).filter(function(p){return p.stage===s;});
+  h+='<div class="stg"><h3 class="px">'+s.toUpperCase()+' <b>'+it.length+'</b></h3>';
+  it.forEach(function(p){h+='<div class="box">📦 '+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a>':esc(p.name))+(p.note?'<div class="k">'+esc(p.note)+'</div>':"")+'</div>';});h+='</div>';});
+ document.getElementById("belt").innerHTML=h;
+ var a=(d.activity||[]),f="",t=[];a.slice(0,30).forEach(function(x,i){f+='<li><span class="t">'+et(x.time)+'</span> <b>'+esc(x.bot)+'</b> '+esc(x.message)+'</li>';if(i<10)t.push("★ "+esc(x.bot).toUpperCase()+": "+esc(x.message));});
+ document.getElementById("feed").innerHTML=f||"<li>No activity yet</li>";
+ document.getElementById("tick").innerHTML=t.join(" &nbsp;&nbsp; ")||"Quiet in the coop…";
+ document.getElementById("upd").textContent="Updated "+ago(d.updated)+" · "+et(d.updated);}
+function load(){var x=new XMLHttpRequest();x.open("GET","status.json?t="+Date.now(),true);
+ x.onload=function(){if(x.status===200){try{render(JSON.parse(x.responseText));}catch(e){}}};x.send();sky();}
+load();setInterval(load,60000);
+</script></body></html>
