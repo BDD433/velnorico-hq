@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:29:36Z",
+ "updated": "2026-10-14T20:29:37Z",
  "bots": [
   {
    "id": "oki",
@@ -194,6 +194,11 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:29:37Z",
+   "bot": "Pipeline",
+   "message": "Chicken Lady Mug moved Listing → Listing"
+  },
   {
    "time": "2026-10-14T20:29:36Z",
    "bot": "Oki",
