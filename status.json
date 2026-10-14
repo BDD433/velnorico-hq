@@ -1,19 +1,19 @@
 {
- "updated": "2026-10-14T20:31:36Z",
+ "updated": "2026-10-14T20:33:15Z",
  "bots": [
   {
    "id": "oki",
    "name": "Oki",
    "emoji": "🦉",
    "role": "Chief",
-   "state": "idle",
-   "task": "HQ team office page is live",
-   "last_active": "2026-10-14T20:31:36Z"
+   "state": "working",
+   "task": "Polished HQ page bubbles; starting store improvements",
+   "last_active": "2026-10-14T20:33:15Z"
   },
   {
    "id": "scout",
    "name": "Scout",
-   "emoji": "🔭",
+   "emoji": "🦊",
    "role": "Niche research",
    "state": "idle",
    "task": "Waiting for next task",
@@ -22,7 +22,7 @@
   {
    "id": "pixel",
    "name": "Pixel",
-   "emoji": "🎨",
+   "emoji": "🐰",
    "role": "Designs",
    "state": "idle",
    "task": "Waiting for next task",
@@ -31,7 +31,7 @@
   {
    "id": "lister",
    "name": "Lister",
-   "emoji": "⌨️",
+   "emoji": "🐶",
    "role": "Listings & Pinterest",
    "state": "idle",
    "task": "16 pins scheduled Oct 15–20",
@@ -40,7 +40,7 @@
   {
    "id": "ledger",
    "name": "Ledger",
-   "emoji": "🧮",
+   "emoji": "🐢",
    "role": "Finance & IP",
    "state": "idle",
    "task": "Finance sheet and trademark screen done",
@@ -194,6 +194,11 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:33:15Z",
+   "bot": "Oki",
+   "message": "started: Polished HQ page bubbles; starting store improvements"
+  },
   {
    "time": "2026-10-14T20:31:36Z",
    "bot": "Oki",
