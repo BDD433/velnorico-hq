@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:33:15Z",
+ "updated": "2026-10-14T20:33:57Z",
  "bots": [
   {
    "id": "oki",
@@ -16,8 +16,8 @@
    "emoji": "🦊",
    "role": "Niche research",
    "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:19:00Z"
+   "task": "SEO proposals for live listings ready for Dawson",
+   "last_active": "2026-10-14T20:33:40Z"
   },
   {
    "id": "pixel",
@@ -43,8 +43,8 @@
    "emoji": "🐢",
    "role": "Finance & IP",
    "state": "idle",
-   "task": "Finance sheet and trademark screen done",
-   "last_active": "2026-10-14T18:22:00Z"
+   "task": "Targeted Offers plan ready: 5% keeps every sale above target",
+   "last_active": "2026-10-14T20:33:57Z"
   }
  ],
  "products": [
@@ -194,6 +194,31 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:33:57Z",
+   "bot": "Ledger",
+   "message": "Targeted Offers plan ready: 5% keeps every sale above target"
+  },
+  {
+   "time": "2026-10-14T20:33:40Z",
+   "bot": "Ledger",
+   "message": "started: Targeted Offers discount levels from margin data"
+  },
+  {
+   "time": "2026-10-14T20:33:40Z",
+   "bot": "Scout",
+   "message": "SEO proposals for live listings ready for Dawson"
+  },
+  {
+   "time": "2026-10-14T20:33:36Z",
+   "bot": "Scout",
+   "message": "Reviewing tags/titles on live listings against Etsy search guidance"
+  },
+  {
+   "time": "2026-10-14T20:33:16Z",
+   "bot": "Scout",
+   "message": "started: Etsy SEO audit of live listings"
+  },
   {
    "time": "2026-10-14T20:33:15Z",
    "bot": "Oki",
