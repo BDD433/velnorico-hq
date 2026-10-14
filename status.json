@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:55:45Z",
+ "updated": "2026-10-14T20:56:13Z",
  "bots": [
   {
    "id": "oki",
@@ -34,8 +34,8 @@
    "emoji": "🐶",
    "role": "Listings & Pinterest",
    "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:37:09Z"
+   "task": "Printable listing drafts done",
+   "last_active": "2026-10-14T20:56:13Z"
   },
   {
    "id": "ledger",
@@ -219,6 +219,21 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:56:13Z",
+   "bot": "Lister",
+   "message": "Printable listing drafts done"
+  },
+  {
+   "time": "2026-10-14T20:56:13Z",
+   "bot": "Lister",
+   "message": "Wrote 5 printable listing drafts (planner, egg log, hatch tracker, health record, chore chart); awaiting Dawson approval"
+  },
+  {
+   "time": "2026-10-14T20:55:49Z",
+   "bot": "Lister",
+   "message": "started: Writing printable listings"
+  },
   {
    "time": "2026-10-14T20:55:45Z",
    "bot": "Pixel",
