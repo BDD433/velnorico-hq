@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:36:29Z",
+ "updated": "2026-10-14T20:37:08Z",
  "bots": [
   {
    "id": "oki",
@@ -33,9 +33,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "idle",
-   "task": "Fresh-pin plan + CSV generator ready (batch 2: 18 pins)",
-   "last_active": "2026-10-14T20:34:08Z"
+   "state": "working",
+   "task": "Writing pin text",
+   "last_active": "2026-10-14T20:37:08Z"
   },
   {
    "id": "ledger",
@@ -194,6 +194,16 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:37:08Z",
+   "bot": "Lister",
+   "message": "Fresh pin text written"
+  },
+  {
+   "time": "2026-10-14T20:36:39Z",
+   "bot": "Lister",
+   "message": "started: Writing pin text"
+  },
   {
    "time": "2026-10-14T20:36:29Z",
    "bot": "Scout",
