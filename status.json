@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:28:00Z",
+ "updated": "2026-10-14T20:29:34Z",
  "bots": [
   {
    "id": "oki",
@@ -7,8 +7,8 @@
    "emoji": "🦉",
    "role": "Chief",
    "state": "working",
-   "task": "Coordinating today's launch work and building the HQ page",
-   "last_active": "2026-10-14T20:28:00Z"
+   "task": "Publishing the HQ team office page",
+   "last_active": "2026-10-14T20:29:34Z"
   },
   {
    "id": "scout",
@@ -194,6 +194,11 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:29:34Z",
+   "bot": "Oki",
+   "message": "started: Publishing the HQ team office page"
+  },
   {
    "time": "2026-10-14T20:28:00Z",
    "bot": "Oki",
