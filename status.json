@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-14T20:33:57Z",
+ "updated": "2026-10-14T20:34:39Z",
  "bots": [
   {
    "id": "oki",
    "name": "Oki",
    "emoji": "🦉",
    "role": "Chief",
-   "state": "working",
-   "task": "Polished HQ page bubbles; starting store improvements",
-   "last_active": "2026-10-14T20:33:15Z"
+   "state": "idle",
+   "task": "Store improvements a–c delivered; waiting on Dawson's approvals",
+   "last_active": "2026-10-14T20:34:39Z"
   },
   {
    "id": "scout",
@@ -34,8 +34,8 @@
    "emoji": "🐶",
    "role": "Listings & Pinterest",
    "state": "idle",
-   "task": "16 pins scheduled Oct 15–20",
-   "last_active": "2026-10-14T19:55:00Z"
+   "task": "Fresh-pin plan + CSV generator ready (batch 2: 18 pins)",
+   "last_active": "2026-10-14T20:34:08Z"
   },
   {
    "id": "ledger",
@@ -194,6 +194,21 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:34:39Z",
+   "bot": "Oki",
+   "message": "Store improvements a–c delivered; waiting on Dawson's approvals"
+  },
+  {
+   "time": "2026-10-14T20:34:08Z",
+   "bot": "Lister",
+   "message": "Fresh-pin plan + CSV generator ready (batch 2: 18 pins)"
+  },
+  {
+   "time": "2026-10-14T20:33:58Z",
+   "bot": "Lister",
+   "message": "started: Planning fresh-pin pipeline + CSV generator"
+  },
   {
    "time": "2026-10-14T20:33:57Z",
    "bot": "Ledger",
