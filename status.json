@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:59:00Z",
+ "updated": "2026-10-14T22:21:21Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "idle",
-   "task": "Printable drafts updated",
-   "last_active": "2026-10-14T20:59:00Z",
+   "state": "working",
+   "task": "Writing Payhip store copy",
+   "last_active": "2026-10-14T22:21:21Z",
    "lines": [
     "L0",
     "L1",
@@ -350,6 +350,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T22:21:21Z",
+   "bot": "Lister",
+   "message": "started: Writing Payhip store copy",
+   "type": "build"
+  },
   {
    "time": "2026-10-14T21:21:00Z",
    "bot": "Forge",
