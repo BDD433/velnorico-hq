@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:37:23Z",
+ "updated": "2026-10-14T20:48:56Z",
  "bots": [
   {
    "id": "oki",
@@ -24,9 +24,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:37:23Z"
+   "state": "working",
+   "task": "Printables: waiting on Scout's top 5",
+   "last_active": "2026-10-14T20:48:56Z"
   },
   {
    "id": "lister",
@@ -194,6 +194,11 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:48:56Z",
+   "bot": "Pixel",
+   "message": "started: Printables: waiting on Scout's top 5"
+  },
   {
    "time": "2026-10-14T20:37:23Z",
    "bot": "Pixel",
