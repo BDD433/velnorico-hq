@@ -8,7 +8,15 @@
    "role": "Chief",
    "state": "idle",
    "task": "Store improvements a–c delivered; waiting on Dawson's approvals",
-   "last_active": "2026-10-14T20:34:39Z"
+   "last_active": "2026-10-14T20:34:39Z",
+   "lines": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+   ]
   },
   {
    "id": "scout",
@@ -17,7 +25,13 @@
    "role": "Niche research",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:49:48Z"
+   "last_active": "2026-10-14T20:49:48Z",
+   "lines": [
+    "L0",
+    "L1",
+    "L3",
+    "L4"
+   ]
   },
   {
    "id": "pixel",
@@ -26,7 +40,12 @@
    "role": "Designs",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:58:13Z"
+   "last_active": "2026-10-14T20:58:13Z",
+   "lines": [
+    "L0",
+    "L1",
+    "L5"
+   ]
   },
   {
    "id": "lister",
@@ -35,7 +54,14 @@
    "role": "Listings & Pinterest",
    "state": "idle",
    "task": "Printable drafts updated",
-   "last_active": "2026-10-14T20:59:00Z"
+   "last_active": "2026-10-14T20:59:00Z",
+   "lines": [
+    "L0",
+    "L1",
+    "L2",
+    "L4",
+    "L5"
+   ]
   },
   {
    "id": "ledger",
@@ -44,7 +70,84 @@
    "role": "Finance & IP",
    "state": "idle",
    "task": "Targeted Offers plan ready: 5% keeps every sale above target",
-   "last_active": "2026-10-14T20:33:57Z"
+   "last_active": "2026-10-14T20:33:57Z",
+   "lines": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+   ]
+  },
+  {
+   "id": "forge",
+   "name": "Forge",
+   "emoji": "🦫",
+   "role": "Builder / engineer",
+   "lines": [
+    "L1",
+    "L2",
+    "L4",
+    "L5"
+   ],
+   "state": "idle",
+   "task": "Hired · waiting for launch week",
+   "last_active": "2026-10-14T21:20:00Z"
+  },
+  {
+   "id": "sentry",
+   "name": "Sentry",
+   "emoji": "🦔",
+   "role": "QA + compliance gate",
+   "lines": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+   ],
+   "state": "idle",
+   "task": "Hired · waiting for launch week",
+   "last_active": "2026-10-14T21:20:00Z"
+  },
+  {
+   "id": "lumen",
+   "name": "Lumen",
+   "emoji": "🦋",
+   "role": "Stock images + metadata",
+   "lines": [
+    "L3"
+   ],
+   "state": "idle",
+   "task": "Hired · waiting for launch week",
+   "last_active": "2026-10-14T21:20:00Z"
+  },
+  {
+   "id": "quill",
+   "name": "Quill",
+   "emoji": "🐿️",
+   "role": "Editor / newsletter",
+   "lines": [
+    "L4"
+   ],
+   "state": "idle",
+   "task": "Hired · waiting for launch week",
+   "last_active": "2026-10-14T21:20:00Z"
+  },
+  {
+   "id": "clerk",
+   "name": "Clerk",
+   "emoji": "🐧",
+   "role": "Client desk (drafts only)",
+   "lines": [
+    "L5",
+    "L2"
+   ],
+   "state": "idle",
+   "task": "Hired · waiting for launch week",
+   "last_active": "2026-10-14T21:20:00Z"
   }
  ],
  "products": [
@@ -53,426 +156,952 @@
    "url": "https://www.etsy.com/listing/4595398821",
    "note": "Live on Etsy · pins scheduled",
    "id": "01-chicken-math-mug",
-   "name": "Chicken Math Mug"
+   "name": "Chicken Math Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Live",
    "url": "https://www.etsy.com/listing/4595414211",
    "note": "Live on Etsy · pins scheduled",
    "id": "01-chicken-math",
-   "name": "Chicken Math Tee"
+   "name": "Chicken Math Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Live",
    "url": "https://www.etsy.com/listing/4595424093",
    "note": "Live on Etsy · pins scheduled",
    "id": "02-coop-crew-mug",
-   "name": "Coop Crew Mug"
+   "name": "Coop Crew Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "02-coop-crew",
-   "name": "Coop Crew Tee"
+   "name": "Coop Crew Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "03-free-range-chaos-mug",
-   "name": "Free Range Chaos Mug"
+   "name": "Free Range Chaos Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "03-free-range-chaos",
-   "name": "Free Range Chaos Tee"
+   "name": "Free Range Chaos Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Live",
    "url": "https://www.etsy.com/listing/4595447786",
    "note": "Live on Etsy · pins scheduled",
    "id": "04-my-chickens-think-im-hilarious-mug",
-   "name": "My Chickens Think I'm Hilarious Mug"
+   "name": "My Chickens Think I'm Hilarious Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "04-my-chickens-think-im-hilarious",
-   "name": "My Chickens Think I'm Hilarious Tee"
+   "name": "My Chickens Think I'm Hilarious Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "05-egg-dealer",
-   "name": "Egg Dealer Tee"
+   "name": "Egg Dealer Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "06-hen-pecked-and-happy",
-   "name": "Hen Pecked and Happy Tee"
+   "name": "Hen Pecked and Happy Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "07-cluck-around-and-find-out-mug",
-   "name": "Cluck Around and Find Out Mug"
+   "name": "Cluck Around and Find Out Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "07-cluck-around-and-find-out",
-   "name": "Cluck Around and Find Out Tee"
+   "name": "Cluck Around and Find Out Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "08-ask-me-about-my-chickens",
-   "name": "Ask Me About My Chickens Tee"
+   "name": "Ask Me About My Chickens Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "09-feathered-therapy",
-   "name": "Feathered Therapy Tee"
+   "name": "Feathered Therapy Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "10-coop-life-mug",
-   "name": "Coop Life Mug"
+   "name": "Coop Life Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "10-coop-life",
-   "name": "Coop Life Tee"
+   "name": "Coop Life Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Live",
    "url": "https://www.etsy.com/listing/4595447546",
    "note": "Live on Etsy · pins scheduled",
    "id": "11-eggs-are-my-love-language-mug",
-   "name": "Eggs Are My Love Language Mug"
+   "name": "Eggs Are My Love Language Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "11-eggs-are-my-love-language",
-   "name": "Eggs Are My Love Language Tee"
+   "name": "Eggs Are My Love Language Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Listing",
    "note": "Etsy draft · pins ready",
    "id": "12-chicken-lady-mug",
-   "name": "Chicken Lady Mug"
+   "name": "Chicken Lady Mug",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "12-chicken-lady",
-   "name": "Chicken Lady Tee"
+   "name": "Chicken Lady Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "13-just-a-girl-who-loves-chickens",
-   "name": "Just a Girl Who Loves Chickens Tee"
+   "name": "Just a Girl Who Loves Chickens Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Live",
    "url": "https://www.etsy.com/listing/4595444692",
    "note": "Live on Etsy · pins scheduled",
    "id": "14-professional-egg-collector",
-   "name": "Professional Egg Collector Tee"
+   "name": "Professional Egg Collector Tee",
+   "instance": "L0-a"
   },
   {
    "stage": "Design",
    "note": "Design + listing copy ready",
    "id": "15-hen-house-hustle",
-   "name": "Hen House Hustle Tee"
+   "name": "Hen House Hustle Tee",
+   "instance": "L0-a"
   },
   {
    "id": "backyard-flock-planner",
    "name": "Backyard Flock Planner",
-   "stage": "Idea"
+   "stage": "Idea",
+   "instance": "L0-a"
   },
   {
    "id": "daily-egg-log-production-tracker",
    "name": "Daily Egg Log & Production Tracker",
-   "stage": "Idea"
+   "stage": "Idea",
+   "instance": "L0-a"
   },
   {
    "id": "21-day-hatching-incubation-tracker",
    "name": "21-Day Hatching & Incubation Tracker",
-   "stage": "Idea"
+   "stage": "Idea",
+   "instance": "L0-a"
   },
   {
    "id": "flock-health-record",
    "name": "Flock Health Record",
-   "stage": "Idea"
+   "stage": "Idea",
+   "instance": "L0-a"
   },
   {
    "id": "coop-chore-chart-safe-treats-cheat-sheet",
    "name": "Coop Chore Chart & Safe Treats Cheat Sheet",
-   "stage": "Idea"
+   "stage": "Idea",
+   "instance": "L0-a"
   }
  ],
  "activity": [
   {
+   "time": "2026-10-14T21:21:00Z",
+   "bot": "Forge",
+   "type": "handoff",
+   "to": "Sentry",
+   "line": "L0",
+   "message": "Campus build ready for money-safety QA"
+  },
+  {
+   "time": "2026-10-14T21:20:00Z",
+   "bot": "Oki",
+   "type": "handoff",
+   "to": "Forge",
+   "line": "L0",
+   "message": "HQ campus upgrade spec handed to Forge"
+  },
+  {
    "time": "2026-10-14T20:59:00Z",
    "bot": "Lister",
-   "message": "Printable drafts updated"
+   "message": "Printable drafts updated",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:58:58Z",
    "bot": "Lister",
-   "message": "Updated 5 printable drafts: planner verified at 67 pages with all 4 singles inside; bundle and cross-sell lines added"
+   "message": "Updated 5 printable drafts: planner verified at 67 pages with all 4 singles inside; bundle and cross-sell lines added",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:58:43Z",
    "bot": "Lister",
-   "message": "started: Updating printable listings"
+   "message": "started: Updating printable listings",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:58:13Z",
    "bot": "Pixel",
-   "message": "Printables polish done"
+   "message": "Printables polish done",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:57:45Z",
    "bot": "Pixel",
-   "message": "Flock Planner polished"
+   "message": "Flock Planner polished",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:56:13Z",
    "bot": "Lister",
-   "message": "Printable listing drafts done"
+   "message": "Printable listing drafts done",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:56:13Z",
    "bot": "Lister",
-   "message": "Wrote 5 printable listing drafts (planner, egg log, hatch tracker, health record, chore chart); awaiting Dawson approval"
+   "message": "Wrote 5 printable listing drafts (planner, egg log, hatch tracker, health record, chore chart); awaiting Dawson approval",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:55:49Z",
    "bot": "Lister",
-   "message": "started: Writing printable listings"
+   "message": "started: Writing printable listings",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:55:45Z",
    "bot": "Pixel",
-   "message": "started: Printables polish pass"
+   "message": "started: Printables polish pass",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:55:00Z",
    "bot": "Pixel",
-   "message": "Coop Chore Chart printable done"
+   "message": "Coop Chore Chart printable done",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:55:00Z",
    "bot": "Pixel",
-   "message": "Flock Health Record printable done"
+   "message": "Flock Health Record printable done",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:55:00Z",
    "bot": "Pixel",
-   "message": "Hatching Tracker printable done"
+   "message": "Hatching Tracker printable done",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:55:00Z",
    "bot": "Pixel",
-   "message": "Daily Egg Log printable done"
+   "message": "Daily Egg Log printable done",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:54:58Z",
    "bot": "Pixel",
-   "message": "Backyard Flock Planner printable done"
+   "message": "Backyard Flock Planner printable done",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:50:23Z",
    "bot": "Pixel",
-   "message": "started: Designing 5 chicken printables"
+   "message": "started: Designing 5 chicken printables",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:49:48Z",
    "bot": "Pipeline",
-   "message": "Coop Chore Chart & Safe Treats Cheat Sheet moved → Idea"
+   "message": "Coop Chore Chart & Safe Treats Cheat Sheet moved → Idea",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:49:48Z",
    "bot": "Pipeline",
-   "message": "Flock Health Record moved → Idea"
+   "message": "Flock Health Record moved → Idea",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:49:48Z",
    "bot": "Pipeline",
-   "message": "21-Day Hatching & Incubation Tracker moved → Idea"
+   "message": "21-Day Hatching & Incubation Tracker moved → Idea",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:49:47Z",
    "bot": "Pipeline",
-   "message": "Daily Egg Log & Production Tracker moved → Idea"
+   "message": "Daily Egg Log & Production Tracker moved → Idea",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:49:47Z",
    "bot": "Pipeline",
-   "message": "Backyard Flock Planner moved → Idea"
+   "message": "Backyard Flock Planner moved → Idea",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:49:46Z",
    "bot": "Scout",
-   "message": "Picked top 5 chicken printables"
+   "message": "Picked top 5 chicken printables",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:49:00Z",
    "bot": "Scout",
-   "message": "started: Researching chicken printables"
+   "message": "started: Researching chicken printables",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:48:56Z",
    "bot": "Pixel",
-   "message": "started: Printables: waiting on Scout's top 5"
+   "message": "started: Printables: waiting on Scout's top 5",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:37:23Z",
    "bot": "Pixel",
-   "message": "18 fresh pins queued"
+   "message": "18 fresh pins queued",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:37:08Z",
    "bot": "Lister",
-   "message": "Fresh pin text written"
+   "message": "Fresh pin text written",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:36:39Z",
    "bot": "Lister",
-   "message": "started: Writing pin text"
+   "message": "started: Writing pin text",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:36:29Z",
    "bot": "Scout",
-   "message": "Designed my HQ character: explorer with spyglass"
+   "message": "Designed my HQ character: explorer with spyglass",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:36:28Z",
    "bot": "Pixel",
-   "message": "started: Pinterest pins"
+   "message": "started: Pinterest pins",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:36:25Z",
    "bot": "Pixel",
-   "message": "Designed my HQ character: CRT-head robot artist in a red beret"
+   "message": "Designed my HQ character: CRT-head robot artist in a red beret",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:34:39Z",
    "bot": "Oki",
-   "message": "Store improvements a–c delivered; waiting on Dawson's approvals"
+   "message": "Store improvements a–c delivered; waiting on Dawson's approvals",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:34:08Z",
    "bot": "Lister",
-   "message": "Fresh-pin plan + CSV generator ready (batch 2: 18 pins)"
+   "message": "Fresh-pin plan + CSV generator ready (batch 2: 18 pins)",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:33:58Z",
    "bot": "Lister",
-   "message": "started: Planning fresh-pin pipeline + CSV generator"
+   "message": "started: Planning fresh-pin pipeline + CSV generator",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:33:57Z",
    "bot": "Ledger",
-   "message": "Targeted Offers plan ready: 5% keeps every sale above target"
+   "message": "Targeted Offers plan ready: 5% keeps every sale above target",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:33:40Z",
    "bot": "Ledger",
-   "message": "started: Targeted Offers discount levels from margin data"
+   "message": "started: Targeted Offers discount levels from margin data",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:33:40Z",
    "bot": "Scout",
-   "message": "SEO proposals for live listings ready for Dawson"
+   "message": "SEO proposals for live listings ready for Dawson",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:33:36Z",
    "bot": "Scout",
-   "message": "Reviewing tags/titles on live listings against Etsy search guidance"
+   "message": "Reviewing tags/titles on live listings against Etsy search guidance",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:33:16Z",
    "bot": "Scout",
-   "message": "started: Etsy SEO audit of live listings"
+   "message": "started: Etsy SEO audit of live listings",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:33:15Z",
    "bot": "Oki",
-   "message": "started: Polished HQ page bubbles; starting store improvements"
+   "message": "started: Polished HQ page bubbles; starting store improvements",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:31:36Z",
    "bot": "Oki",
-   "message": "HQ team office page is live"
+   "message": "HQ team office page is live",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:29:36Z",
    "bot": "Oki",
-   "message": "HQ team office page is live"
+   "message": "HQ team office page is live",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:29:34Z",
    "bot": "Oki",
-   "message": "started: Publishing the HQ team office page"
+   "message": "started: Publishing the HQ team office page",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:28:00Z",
    "bot": "Oki",
-   "message": "Started building the HQ team office page"
+   "message": "Started building the HQ team office page",
+   "type": "build"
   },
   {
    "time": "2026-10-14T20:19:00Z",
    "bot": "Scout",
-   "message": "Finished research: visual workspace options + top 8 store optimizations"
+   "message": "Finished research: visual workspace options + top 8 store optimizations",
+   "type": "build"
   },
   {
    "time": "2026-10-14T19:55:00Z",
    "bot": "Lister",
-   "message": "Pinterest bulk-upload CSV ready: 16 pins scheduled Oct 15–20"
+   "message": "Pinterest bulk-upload CSV ready: 16 pins scheduled Oct 15–20",
+   "type": "build"
   },
   {
    "time": "2026-10-14T19:40:00Z",
    "bot": "Pixel",
-   "message": "Pin images hosted on GitHub (BDD433/velnorico-pins)"
+   "message": "Pin images hosted on GitHub (BDD433/velnorico-pins)",
+   "type": "build"
   },
   {
    "time": "2026-10-14T18:57:00Z",
    "bot": "Lister",
-   "message": "Pin titles, descriptions & Etsy links written for 18 pin images"
+   "message": "Pin titles, descriptions & Etsy links written for 18 pin images",
+   "type": "build"
   },
   {
    "time": "2026-10-14T18:43:00Z",
    "bot": "Pixel",
-   "message": "Rendered 18 Pinterest pin images + contact sheet"
+   "message": "Rendered 18 Pinterest pin images + contact sheet",
+   "type": "build"
   },
   {
    "time": "2026-10-14T18:22:00Z",
    "bot": "Ledger",
-   "message": "Updated finance sheet and listing drafts"
+   "message": "Updated finance sheet and listing drafts",
+   "type": "build"
   },
   {
    "time": "2026-10-14T18:19:00Z",
    "bot": "Oki",
-   "message": "Printify draft tool ready"
+   "message": "Printify draft tool ready",
+   "type": "build"
   },
   {
    "time": "2026-10-14T12:09:00Z",
    "bot": "Oki",
-   "message": "Launch checklist updated"
+   "message": "Launch checklist updated",
+   "type": "build"
   },
   {
    "time": "2026-10-14T06:24:00Z",
    "bot": "Pixel",
-   "message": "Chicken designs finalized"
+   "message": "Chicken designs finalized",
+   "type": "build"
+  }
+ ],
+ "version": 2,
+ "lines": [
+  {
+   "id": "L0",
+   "name": "Etsy print-on-demand",
+   "building": "barn",
+   "state": "live"
+  },
+  {
+   "id": "L1",
+   "name": "Payhip digital products",
+   "building": "library",
+   "state": "planned"
+  },
+  {
+   "id": "L2",
+   "name": "Apify Actors + Chrome extensions",
+   "building": "workshop",
+   "state": "planned"
+  },
+  {
+   "id": "L3",
+   "name": "Adobe Stock AI images",
+   "building": "greenhouse",
+   "state": "planned"
+  },
+  {
+   "id": "L4",
+   "name": "Content sites + newsletter",
+   "building": "newsroom",
+   "state": "planned"
+  },
+  {
+   "id": "L5",
+   "name": "Fiverr bot-fulfilled services",
+   "building": "market",
+   "state": "planned"
+  }
+ ],
+ "instances": [
+  {
+   "id": "L0-a",
+   "line": "L0",
+   "name": "Chicken-humor tees & mugs",
+   "state": "live",
+   "bots": [
+    "scout",
+    "pixel",
+    "lister",
+    "ledger"
+   ],
+   "kpis": {
+    "listings_live": 6,
+    "designs_ready": 16
+   },
+   "gate": {
+    "next": "—",
+    "met": [],
+    "pending": []
+   }
+  },
+  {
+   "id": "L1-a",
+   "line": "L1",
+   "name": "Finance & small-biz spreadsheets",
+   "state": "planned",
+   "week": 1,
+   "bots": [
+    "forge",
+    "pixel",
+    "lister",
+    "sentry"
+   ],
+   "kpis": {
+    "products_live": 0,
+    "views_wk": 0,
+    "email_signups": 0
+   },
+   "targets": {
+    "products_live": 10,
+    "views_wk": 200,
+    "email_signups": 25
+   },
+   "gate": {
+    "next": "L1-b",
+    "met": [],
+    "pending": [
+     "sales >=1/wk x2wk or views >=400/wk",
+     "Scout validates niche",
+     "Payhip confirms 2nd account"
+    ]
+   }
+  },
+  {
+   "id": "L2-a",
+   "line": "L2",
+   "name": "Document & data utilities",
+   "state": "planned",
+   "week": 2,
+   "bots": [
+    "forge",
+    "clerk",
+    "sentry"
+   ],
+   "kpis": {
+    "actors_live": 0,
+    "run_success_pct": 0,
+    "ext_weekly_users": 0
+   },
+   "targets": {
+    "actors_live": 4,
+    "run_success_pct": 95,
+    "ext_weekly_users": 50
+   },
+   "gate": {
+    "next": "L2 family b",
+    "met": [],
+    "pending": [
+     ">=3 paid users on family a"
+    ]
+   }
+  },
+  {
+   "id": "L3-a",
+   "line": "L3",
+   "name": "Seasonal & business stock",
+   "state": "planned",
+   "week": 1,
+   "bots": [
+    "lumen",
+    "sentry"
+   ],
+   "kpis": {
+    "images_accepted": 0,
+    "acceptance_pct": 0
+   },
+   "targets": {
+    "images_accepted": 200,
+    "acceptance_pct": 60
+   },
+   "gate": {
+    "next": "L3 volume step",
+    "met": [],
+    "pending": [
+     "acceptance >=60%",
+     "downloads bucket 11-20+ /mo"
+    ]
+   }
+  },
+  {
+   "id": "L4-a",
+   "line": "L4",
+   "name": "Backyard homestead & frugal living",
+   "state": "planned",
+   "week": 4,
+   "bots": [
+    "quill",
+    "forge",
+    "lister",
+    "sentry"
+   ],
+   "kpis": {
+    "posts_live": 0,
+    "indexed_pct": 0,
+    "subscribers": "0"
+   },
+   "targets": {
+    "posts_live": 16,
+    "indexed_pct": 80
+   },
+   "gate": {
+    "next": "L4-b",
+    "met": [],
+    "pending": [
+     ">=1,000 sessions/mo or >=200 subs",
+     "index rate >=80%"
+    ]
+   }
+  },
+  {
+   "id": "L5-a",
+   "line": "L5",
+   "name": "Sheets & dashboards gig",
+   "state": "planned",
+   "week": 3,
+   "bots": [
+    "clerk",
+    "forge",
+    "sentry"
+   ],
+   "kpis": {
+    "gigs_live": 0,
+    "orders_completed": "0",
+    "rating": 0,
+    "on_time_pct": 0
+   },
+   "targets": {
+    "gigs_live": 2,
+    "on_time_pct": 100
+   },
+   "gate": {
+    "next": "L5 gig #3",
+    "met": [],
+    "pending": [
+     "orders 5+",
+     "rating >=4.9",
+     "Dawson <=15 min/order"
+    ]
+   }
+  },
+  {
+   "id": "L5-b",
+   "line": "L5",
+   "name": "Python / CSV automation gig",
+   "state": "planned",
+   "week": 3,
+   "bots": [
+    "clerk",
+    "forge",
+    "sentry"
+   ],
+   "kpis": {
+    "gigs_live": 0,
+    "orders_completed": "0"
+   },
+   "gate": {
+    "next": "—",
+    "met": [],
+    "pending": []
+   }
+  }
+ ],
+ "pipeline": [
+  {
+   "instance": "L1-a",
+   "id": "budget-planner",
+   "title": "Budget planner sheet",
+   "stage": "idea",
+   "owner": "forge",
+   "since": "2026-10-14T21:20:00Z"
+  },
+  {
+   "instance": "L1-a",
+   "id": "debt-snowball",
+   "title": "Debt snowball sheet",
+   "stage": "idea",
+   "owner": "forge",
+   "since": "2026-10-14T21:20:00Z"
+  },
+  {
+   "instance": "L1-a",
+   "id": "budget-starter",
+   "title": "Free 1-page budget starter",
+   "stage": "idea",
+   "owner": "pixel",
+   "since": "2026-10-14T21:20:00Z"
+  },
+  {
+   "instance": "L2-a",
+   "id": "actor-pdf-json",
+   "title": "PDF/invoice → JSON Actor",
+   "stage": "idea",
+   "owner": "forge",
+   "since": "2026-10-14T21:20:00Z"
+  },
+  {
+   "instance": "L2-a",
+   "id": "actor-csv-clean",
+   "title": "CSV clean/dedupe Actor",
+   "stage": "idea",
+   "owner": "forge",
+   "since": "2026-10-14T21:20:00Z"
+  },
+  {
+   "instance": "L3-a",
+   "id": "batch-1",
+   "title": "First batch (50 images)",
+   "stage": "idea",
+   "owner": "lumen",
+   "since": "2026-10-14T21:20:00Z"
+  },
+  {
+   "instance": "L4-a",
+   "id": "feed-calc",
+   "title": "Feed-cost calculator post",
+   "stage": "idea",
+   "owner": "quill",
+   "since": "2026-10-14T21:20:00Z"
+  },
+  {
+   "instance": "L5-a",
+   "id": "gig-copy",
+   "title": "Gig copy + gallery",
+   "stage": "idea",
+   "owner": "clerk",
+   "since": "2026-10-14T21:20:00Z"
+  }
+ ],
+ "routines": [
+  {
+   "bot": "scout",
+   "day": "Mon",
+   "time_et": "09:00",
+   "label": "Opportunity brief",
+   "active": false
+  },
+  {
+   "bot": "lumen",
+   "day": "Mon",
+   "time_et": "11:00",
+   "label": "Stock batch",
+   "active": false
+  },
+  {
+   "bot": "forge",
+   "day": "Tue",
+   "time_et": "10:00",
+   "label": "Release",
+   "active": false
+  },
+  {
+   "bot": "quill",
+   "day": "Tue",
+   "time_et": "13:00",
+   "label": "Post",
+   "active": false
+  },
+  {
+   "bot": "lumen",
+   "day": "Wed",
+   "time_et": "11:00",
+   "label": "Stock batch",
+   "active": false
+  },
+  {
+   "bot": "quill",
+   "day": "Thu",
+   "time_et": "13:00",
+   "label": "Post",
+   "active": false
+  },
+  {
+   "bot": "sentry",
+   "day": "Fri",
+   "time_et": "10:00",
+   "label": "Weekly audit",
+   "active": false
+  },
+  {
+   "bot": "quill",
+   "day": "Fri",
+   "time_et": "12:00",
+   "label": "Newsletter",
+   "active": false
+  },
+  {
+   "bot": "oki",
+   "day": "Fri",
+   "time_et": "15:00",
+   "label": "Dawson packet",
+   "active": true
+  },
+  {
+   "bot": "oki",
+   "day": "Sun",
+   "time_et": "17:00",
+   "label": "KPI review + gates",
+   "active": true
+  },
+  {
+   "bot": "clerk",
+   "day": "Mon",
+   "time_et": "09:00",
+   "label": "Daily digest",
+   "active": false
+  },
+  {
+   "bot": "clerk",
+   "day": "Tue",
+   "time_et": "09:00",
+   "label": "Daily digest",
+   "active": false
+  },
+  {
+   "bot": "clerk",
+   "day": "Wed",
+   "time_et": "09:00",
+   "label": "Daily digest",
+   "active": false
+  },
+  {
+   "bot": "clerk",
+   "day": "Thu",
+   "time_et": "09:00",
+   "label": "Daily digest",
+   "active": false
+  },
+  {
+   "bot": "clerk",
+   "day": "Fri",
+   "time_et": "09:00",
+   "label": "Daily digest",
+   "active": false
+  },
+  {
+   "bot": "clerk",
+   "day": "Sat",
+   "time_et": "09:00",
+   "label": "Daily digest",
+   "active": false
+  },
+  {
+   "bot": "clerk",
+   "day": "Sun",
+   "time_et": "09:00",
+   "label": "Daily digest",
+   "active": false
+  }
+ ],
+ "waiting_on_dawson": [
+  {
+   "id": "store-abc",
+   "label": "Approve store improvements a–c",
+   "since": "2026-10-14T20:34:39Z"
+  },
+  {
+   "id": "plan-v2",
+   "label": "Green-light expansion plan v2 (week 1: Payhip + Adobe signup)",
+   "since": "2026-10-14T20:00:00Z"
   }
  ]
 }
