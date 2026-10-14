@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:58:58Z",
+ "updated": "2026-10-14T20:59:00Z",
  "bots": [
   {
    "id": "oki",
@@ -33,9 +33,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Updating printable listings",
-   "last_active": "2026-10-14T20:58:58Z"
+   "state": "idle",
+   "task": "Printable drafts updated",
+   "last_active": "2026-10-14T20:59:00Z"
   },
   {
    "id": "ledger",
@@ -219,6 +219,11 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:59:00Z",
+   "bot": "Lister",
+   "message": "Printable drafts updated"
+  },
   {
    "time": "2026-10-14T20:58:58Z",
    "bot": "Lister",
