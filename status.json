@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:57:45Z",
+ "updated": "2026-10-14T20:58:13Z",
  "bots": [
   {
    "id": "oki",
@@ -24,9 +24,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "working",
-   "task": "Printables polish pass",
-   "last_active": "2026-10-14T20:57:45Z"
+   "state": "idle",
+   "task": "Waiting for next task",
+   "last_active": "2026-10-14T20:58:13Z"
   },
   {
    "id": "lister",
@@ -219,6 +219,11 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:58:13Z",
+   "bot": "Pixel",
+   "message": "Printables polish done"
+  },
   {
    "time": "2026-10-14T20:57:45Z",
    "bot": "Pixel",
