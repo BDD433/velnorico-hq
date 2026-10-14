@@ -1,0 +1,248 @@
+{
+ "updated": "2026-10-14T20:28:00Z",
+ "bots": [
+  {
+   "id": "oki",
+   "name": "Oki",
+   "emoji": "🦉",
+   "role": "Chief",
+   "state": "working",
+   "task": "Coordinating today's launch work and building the HQ page",
+   "last_active": "2026-10-14T20:28:00Z"
+  },
+  {
+   "id": "scout",
+   "name": "Scout",
+   "emoji": "🔭",
+   "role": "Niche research",
+   "state": "idle",
+   "task": "Waiting for next task",
+   "last_active": "2026-10-14T20:19:00Z"
+  },
+  {
+   "id": "pixel",
+   "name": "Pixel",
+   "emoji": "🎨",
+   "role": "Designs",
+   "state": "idle",
+   "task": "Waiting for next task",
+   "last_active": "2026-10-14T18:43:00Z"
+  },
+  {
+   "id": "lister",
+   "name": "Lister",
+   "emoji": "⌨️",
+   "role": "Listings & Pinterest",
+   "state": "idle",
+   "task": "16 pins scheduled Oct 15–20",
+   "last_active": "2026-10-14T19:55:00Z"
+  },
+  {
+   "id": "ledger",
+   "name": "Ledger",
+   "emoji": "🧮",
+   "role": "Finance & IP",
+   "state": "idle",
+   "task": "Finance sheet and trademark screen done",
+   "last_active": "2026-10-14T18:22:00Z"
+  }
+ ],
+ "products": [
+  {
+   "stage": "Live",
+   "url": "https://www.etsy.com/listing/4595398821",
+   "note": "Live on Etsy · pins scheduled",
+   "id": "01-chicken-math-mug",
+   "name": "Chicken Math Mug"
+  },
+  {
+   "stage": "Live",
+   "url": "https://www.etsy.com/listing/4595414211",
+   "note": "Live on Etsy · pins scheduled",
+   "id": "01-chicken-math",
+   "name": "Chicken Math Tee"
+  },
+  {
+   "stage": "Live",
+   "url": "https://www.etsy.com/listing/4595424093",
+   "note": "Live on Etsy · pins scheduled",
+   "id": "02-coop-crew-mug",
+   "name": "Coop Crew Mug"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "02-coop-crew",
+   "name": "Coop Crew Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "03-free-range-chaos-mug",
+   "name": "Free Range Chaos Mug"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "03-free-range-chaos",
+   "name": "Free Range Chaos Tee"
+  },
+  {
+   "stage": "Live",
+   "url": "https://www.etsy.com/listing/4595447786",
+   "note": "Live on Etsy · pins scheduled",
+   "id": "04-my-chickens-think-im-hilarious-mug",
+   "name": "My Chickens Think I'm Hilarious Mug"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "04-my-chickens-think-im-hilarious",
+   "name": "My Chickens Think I'm Hilarious Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "05-egg-dealer",
+   "name": "Egg Dealer Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "06-hen-pecked-and-happy",
+   "name": "Hen Pecked and Happy Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "07-cluck-around-and-find-out-mug",
+   "name": "Cluck Around and Find Out Mug"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "07-cluck-around-and-find-out",
+   "name": "Cluck Around and Find Out Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "08-ask-me-about-my-chickens",
+   "name": "Ask Me About My Chickens Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "09-feathered-therapy",
+   "name": "Feathered Therapy Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "10-coop-life-mug",
+   "name": "Coop Life Mug"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "10-coop-life",
+   "name": "Coop Life Tee"
+  },
+  {
+   "stage": "Live",
+   "url": "https://www.etsy.com/listing/4595447546",
+   "note": "Live on Etsy · pins scheduled",
+   "id": "11-eggs-are-my-love-language-mug",
+   "name": "Eggs Are My Love Language Mug"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "11-eggs-are-my-love-language",
+   "name": "Eggs Are My Love Language Tee"
+  },
+  {
+   "stage": "Listing",
+   "note": "Etsy draft · pins ready",
+   "id": "12-chicken-lady-mug",
+   "name": "Chicken Lady Mug"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "12-chicken-lady",
+   "name": "Chicken Lady Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "13-just-a-girl-who-loves-chickens",
+   "name": "Just a Girl Who Loves Chickens Tee"
+  },
+  {
+   "stage": "Live",
+   "url": "https://www.etsy.com/listing/4595444692",
+   "note": "Live on Etsy · pins scheduled",
+   "id": "14-professional-egg-collector",
+   "name": "Professional Egg Collector Tee"
+  },
+  {
+   "stage": "Design",
+   "note": "Design + listing copy ready",
+   "id": "15-hen-house-hustle",
+   "name": "Hen House Hustle Tee"
+  }
+ ],
+ "activity": [
+  {
+   "time": "2026-10-14T20:28:00Z",
+   "bot": "Oki",
+   "message": "Started building the HQ team office page"
+  },
+  {
+   "time": "2026-10-14T20:19:00Z",
+   "bot": "Scout",
+   "message": "Finished research: visual workspace options + top 8 store optimizations"
+  },
+  {
+   "time": "2026-10-14T19:55:00Z",
+   "bot": "Lister",
+   "message": "Pinterest bulk-upload CSV ready: 16 pins scheduled Oct 15–20"
+  },
+  {
+   "time": "2026-10-14T19:40:00Z",
+   "bot": "Pixel",
+   "message": "Pin images hosted on GitHub (BDD433/velnorico-pins)"
+  },
+  {
+   "time": "2026-10-14T18:57:00Z",
+   "bot": "Lister",
+   "message": "Pin titles, descriptions & Etsy links written for 18 pin images"
+  },
+  {
+   "time": "2026-10-14T18:43:00Z",
+   "bot": "Pixel",
+   "message": "Rendered 18 Pinterest pin images + contact sheet"
+  },
+  {
+   "time": "2026-10-14T18:22:00Z",
+   "bot": "Ledger",
+   "message": "Updated finance sheet and listing drafts"
+  },
+  {
+   "time": "2026-10-14T18:19:00Z",
+   "bot": "Oki",
+   "message": "Printify draft tool ready"
+  },
+  {
+   "time": "2026-10-14T12:09:00Z",
+   "bot": "Oki",
+   "message": "Launch checklist updated"
+  },
+  {
+   "time": "2026-10-14T06:24:00Z",
+   "bot": "Pixel",
+   "message": "Chicken designs finalized"
+  }
+ ]
+}
