@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T22:41:11Z",
+ "updated": "2026-10-14T23:50:19Z",
  "bots": [
   {
    "id": "oki",
@@ -25,7 +25,7 @@
    "role": "Niche research",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:49:48Z",
+   "last_active": "2026-10-14T23:50:19Z",
    "lines": [
     "L0",
     "L1",
@@ -350,6 +350,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T23:50:19Z",
+   "bot": "Scout",
+   "message": "Next niche picked: backyard birding, brief sent to Pixel",
+   "type": "build"
+  },
   {
    "time": "2026-10-14T22:41:11Z",
    "bot": "Pixel",
