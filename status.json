@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T23:50:20Z",
+ "updated": "2026-10-14T23:58:16Z",
  "bots": [
   {
    "id": "oki",
@@ -38,9 +38,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-14T22:41:11Z",
+   "state": "working",
+   "task": "Birding designs",
+   "last_active": "2026-10-14T23:58:16Z",
    "lines": [
     "L0",
     "L1",
@@ -357,6 +357,18 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T23:58:16Z",
+   "bot": "Pixel",
+   "message": "Birding designs done: 15 tees + 7 mug wraps, all print_check PASS (3 inks)",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-14T23:50:45Z",
+   "bot": "Pixel",
+   "message": "started: Birding designs",
+   "type": "build"
+  },
   {
    "time": "2026-10-14T23:50:20Z",
    "bot": "Pipeline",
