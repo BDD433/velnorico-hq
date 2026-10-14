@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:48:56Z",
+ "updated": "2026-10-14T20:49:46Z",
  "bots": [
   {
    "id": "oki",
@@ -15,9 +15,9 @@
    "name": "Scout",
    "emoji": "🦊",
    "role": "Niche research",
-   "state": "idle",
-   "task": "SEO proposals for live listings ready for Dawson",
-   "last_active": "2026-10-14T20:36:29Z"
+   "state": "working",
+   "task": "Researching chicken printables",
+   "last_active": "2026-10-14T20:49:46Z"
   },
   {
    "id": "pixel",
@@ -194,6 +194,16 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:49:46Z",
+   "bot": "Scout",
+   "message": "Picked top 5 chicken printables"
+  },
+  {
+   "time": "2026-10-14T20:49:00Z",
+   "bot": "Scout",
+   "message": "started: Researching chicken printables"
+  },
   {
    "time": "2026-10-14T20:48:56Z",
    "bot": "Pixel",
