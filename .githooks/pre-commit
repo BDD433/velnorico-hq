@@ -1,0 +1,15 @@
+#!/bin/sh
+# VelnoriCo HQ money guard: blocks commits that would publish money figures or private files.
+root=$(git rev-parse --show-toplevel) || exit 1
+files=$(git diff --cached --name-only --diff-filter=ACMR)
+[ -z "$files" ] && exit 0
+for f in $files; do
+  case "$f" in private/*|*money.html|*money.json|*.env|.secrets/*) echo "pre-commit: refusing private file $f"; exit 1;; esac
+done
+tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
+list=""
+for f in $files; do
+  case "$f" in *.json|*.html|*.md|*.txt|*.csv) mkdir -p "$tmp/$(dirname "$f")"; git show ":$f" > "$tmp/$f"; list="$list $tmp/$f";; esac
+done
+[ -z "$list" ] && exit 0
+python3 "$root/ci/money_check.py" $list || { echo "pre-commit: blocked by money check (HQ is public)."; exit 1; }
