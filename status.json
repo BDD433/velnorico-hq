@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T22:35:03Z",
+ "updated": "2026-10-14T22:41:11Z",
  "bots": [
   {
    "id": "oki",
@@ -40,7 +40,7 @@
    "role": "Designs",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-14T22:35:03Z",
+   "last_active": "2026-10-14T22:41:11Z",
    "lines": [
     "L0",
     "L1",
@@ -350,6 +350,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T22:41:11Z",
+   "bot": "Pixel",
+   "message": "Payhip what's-included images re-rendered with final PDF guides; other 14 unchanged",
+   "type": "build"
+  },
   {
    "time": "2026-10-14T22:35:03Z",
    "bot": "Pixel",
