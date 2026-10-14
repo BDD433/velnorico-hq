@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T22:21:21Z",
+ "updated": "2026-10-14T22:21:43Z",
  "bots": [
   {
    "id": "oki",
@@ -38,9 +38,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-14T20:58:13Z",
+   "state": "working",
+   "task": "Velnori Studio store design",
+   "last_active": "2026-10-14T22:21:29Z",
    "lines": [
     "L0",
     "L1",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Writing Payhip store copy",
-   "last_active": "2026-10-14T22:21:21Z",
+   "state": "idle",
+   "task": "Payhip store copy drafted",
+   "last_active": "2026-10-14T22:21:43Z",
    "lines": [
     "L0",
     "L1",
@@ -350,6 +350,24 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T22:21:43Z",
+   "bot": "Lister",
+   "message": "Payhip store copy drafted",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-14T22:21:43Z",
+   "bot": "Lister",
+   "message": "Drafted Velnori Studio Payhip store copy for 3 spreadsheet templates; awaiting Dawson approval",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-14T22:21:29Z",
+   "bot": "Pixel",
+   "message": "started: Velnori Studio store design",
+   "type": "build"
+  },
   {
    "time": "2026-10-14T22:21:21Z",
    "bot": "Lister",
