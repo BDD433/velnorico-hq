@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T23:58:49Z",
+ "updated": "2026-10-14T23:59:48Z",
  "bots": [
   {
    "id": "oki",
@@ -54,7 +54,7 @@
    "role": "Listings & Pinterest",
    "state": "working",
    "task": "Writing birding listing drafts",
-   "last_active": "2026-10-14T23:58:49Z",
+   "last_active": "2026-10-14T23:59:48Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T23:59:48Z",
+   "bot": "Lister",
+   "message": "Drafted 22 birding listings (15 tees, 7 mugs); awaiting Sentry QA and Dawson approval",
+   "type": "build"
+  },
   {
    "time": "2026-10-14T23:58:49Z",
    "bot": "Lister",
