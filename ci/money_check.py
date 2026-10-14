@@ -47,7 +47,7 @@ def check_file(f):
     return []
 
 def default_files(root):
-    out = [os.path.join(root, x) for x in ("status.json", "index.html", "README.md") if os.path.exists(os.path.join(root, x))]
+    out = [os.path.join(root, x) for x in ("status.json", "index.html", "2d.html", "README.md") if os.path.exists(os.path.join(root, x))]
     cd = os.path.join(root, "characters")
     if os.path.isdir(cd): out += [os.path.join(cd, x) for x in sorted(os.listdir(cd))]
     return out
