@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:49:46Z",
+ "updated": "2026-10-14T20:49:48Z",
  "bots": [
   {
    "id": "oki",
@@ -15,9 +15,9 @@
    "name": "Scout",
    "emoji": "🦊",
    "role": "Niche research",
-   "state": "working",
-   "task": "Researching chicken printables",
-   "last_active": "2026-10-14T20:49:46Z"
+   "state": "idle",
+   "task": "Waiting for next task",
+   "last_active": "2026-10-14T20:49:48Z"
   },
   {
    "id": "pixel",
@@ -191,9 +191,59 @@
    "note": "Design + listing copy ready",
    "id": "15-hen-house-hustle",
    "name": "Hen House Hustle Tee"
+  },
+  {
+   "id": "backyard-flock-planner",
+   "name": "Backyard Flock Planner",
+   "stage": "Idea"
+  },
+  {
+   "id": "daily-egg-log-production-tracker",
+   "name": "Daily Egg Log & Production Tracker",
+   "stage": "Idea"
+  },
+  {
+   "id": "21-day-hatching-incubation-tracker",
+   "name": "21-Day Hatching & Incubation Tracker",
+   "stage": "Idea"
+  },
+  {
+   "id": "flock-health-record",
+   "name": "Flock Health Record",
+   "stage": "Idea"
+  },
+  {
+   "id": "coop-chore-chart-safe-treats-cheat-sheet",
+   "name": "Coop Chore Chart & Safe Treats Cheat Sheet",
+   "stage": "Idea"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-14T20:49:48Z",
+   "bot": "Pipeline",
+   "message": "Coop Chore Chart & Safe Treats Cheat Sheet moved → Idea"
+  },
+  {
+   "time": "2026-10-14T20:49:48Z",
+   "bot": "Pipeline",
+   "message": "Flock Health Record moved → Idea"
+  },
+  {
+   "time": "2026-10-14T20:49:48Z",
+   "bot": "Pipeline",
+   "message": "21-Day Hatching & Incubation Tracker moved → Idea"
+  },
+  {
+   "time": "2026-10-14T20:49:47Z",
+   "bot": "Pipeline",
+   "message": "Daily Egg Log & Production Tracker moved → Idea"
+  },
+  {
+   "time": "2026-10-14T20:49:47Z",
+   "bot": "Pipeline",
+   "message": "Backyard Flock Planner moved → Idea"
+  },
   {
    "time": "2026-10-14T20:49:46Z",
    "bot": "Scout",
