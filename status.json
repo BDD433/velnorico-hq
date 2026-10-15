@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:36:43Z",
+ "updated": "2026-10-15T00:36:47Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Chicken batch: QA fixes and publish",
-   "last_active": "2026-10-15T00:31:21Z",
+   "state": "idle",
+   "task": "Chicken batch done",
+   "last_active": "2026-10-15T00:36:47Z",
    "lines": [
     "L0",
     "L1",
@@ -220,32 +220,36 @@
    "instance": "L0-a"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "06-hen-pecked-and-happy",
    "name": "Hen Pecked and Happy Tee",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "07-cluck-around-and-find-out-mug",
    "name": "Cluck Around and Find Out Mug",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "07-cluck-around-and-find-out",
    "name": "Cluck Around and Find Out Tee",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "08-ask-me-about-my-chickens",
    "name": "Ask Me About My Chickens Tee",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
    "stage": "Design",
@@ -255,18 +259,20 @@
    "instance": "L0-a"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "10-coop-life-mug",
    "name": "Coop Life Mug",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "10-coop-life",
    "name": "Coop Life Tee",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
    "stage": "Live",
@@ -277,11 +283,12 @@
    "instance": "L0-a"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "11-eggs-are-my-love-language",
    "name": "Eggs Are My Love Language Tee",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
    "stage": "Listing",
@@ -313,11 +320,12 @@
    "instance": "L0-a"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "15-hen-house-hustle",
    "name": "Hen House Hustle Tee",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:44Z"
   },
   {
    "id": "backyard-flock-planner",
@@ -356,9 +364,101 @@
    "stage": "Design",
    "since": "2026-10-14T23:58:17Z",
    "note": "15 tees + 7 mugs designed, files 16-30 in tools/out"
+  },
+  {
+   "id": "my-chickens-think-im-hilarious-tee",
+   "name": "My Chickens Think Im Hilarious tee",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:36:44Z",
+   "note": "On Etsy as draft via Printify; Dawson activates"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:36:47Z",
+   "bot": "Lister",
+   "message": "Chicken batch done",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T00:36:47Z",
+   "bot": "Lister",
+   "message": "Chicken batch: QA fixes applied; 10 Sentry-PASS items sent to Etsy via Printify as drafts for Dawson to activate; 6 POD items and 5 printables held",
+   "type": "publish"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Coop Life Mug moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Cluck Around and Find Out Mug moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Hen House Hustle Tee moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Eggs Are My Love Language Tee moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Coop Life Tee moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Ask Me About My Chickens Tee moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Cluck Around and Find Out Tee moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "Hen Pecked and Happy Tee moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:36:44Z",
+   "bot": "Pipeline",
+   "message": "My Chickens Think Im Hilarious tee moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
   {
    "time": "2026-10-15T00:36:43Z",
    "bot": "Pipeline",
@@ -781,72 +881,6 @@
    "time": "2026-10-14T20:36:29Z",
    "bot": "Scout",
    "message": "Designed my HQ character: explorer with spyglass",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:36:28Z",
-   "bot": "Pixel",
-   "message": "started: Pinterest pins",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:36:25Z",
-   "bot": "Pixel",
-   "message": "Designed my HQ character: CRT-head robot artist in a red beret",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:34:39Z",
-   "bot": "Oki",
-   "message": "Store improvements a–c delivered; waiting on Dawson's approvals",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:34:08Z",
-   "bot": "Lister",
-   "message": "Fresh-pin plan + CSV generator ready (batch 2: 18 pins)",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:33:58Z",
-   "bot": "Lister",
-   "message": "started: Planning fresh-pin pipeline + CSV generator",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:33:57Z",
-   "bot": "Ledger",
-   "message": "Targeted Offers plan ready: 5% keeps every sale above target",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:33:40Z",
-   "bot": "Ledger",
-   "message": "started: Targeted Offers discount levels from margin data",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:33:40Z",
-   "bot": "Scout",
-   "message": "SEO proposals for live listings ready for Dawson",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:33:36Z",
-   "bot": "Scout",
-   "message": "Reviewing tags/titles on live listings against Etsy search guidance",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:33:16Z",
-   "bot": "Scout",
-   "message": "started: Etsy SEO audit of live listings",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:33:15Z",
-   "bot": "Oki",
-   "message": "started: Polished HQ page bubbles; starting store improvements",
    "type": "build"
   }
  ],
