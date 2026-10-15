@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T13:53:18Z",
+ "updated": "2026-10-15T13:53:20Z",
  "bots": [
   {
    "id": "oki",
@@ -38,9 +38,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "working",
-   "task": "Gardening designs + 2027 Garden Planner",
-   "last_active": "2026-10-15T13:53:18Z",
+   "state": "idle",
+   "task": "Gardening batch delivered",
+   "last_active": "2026-10-15T13:53:20Z",
    "lines": [
     "L0",
     "L1",
@@ -601,18 +601,48 @@
    "id": "gardening-collection",
    "name": "Gardening collection",
    "instance": "L0-a",
-   "stage": "Idea",
-   "since": "2026-10-15T13:31:08Z"
+   "stage": "Design",
+   "since": "2026-10-15T13:53:20Z",
+   "note": "11 tees + 7 mugs + 2 totes + 2 aprons ready, all PASS"
   },
   {
    "id": "garden-planner-2027",
    "name": "Garden Planner 2027",
    "instance": "L0-a",
-   "stage": "Idea",
-   "since": "2026-10-15T13:31:08Z"
+   "stage": "Design",
+   "since": "2026-10-15T13:53:20Z",
+   "note": "34 pages, 5 PDFs + zip + 5 mockups ready"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T13:53:20Z",
+   "bot": "Pixel",
+   "message": "Gardening batch delivered",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T13:53:20Z",
+   "bot": "Pipeline",
+   "message": "Garden Planner 2027 moved Idea → Design",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T13:53:20Z",
+   "bot": "Pipeline",
+   "message": "Gardening collection moved Idea → Design",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T13:53:20Z",
+   "bot": "Pixel",
+   "message": "Gardening 31-41: 11 seed-packet tees, 7 mugs (bp 478), 2 totes (bp 1313) + 2 half aprons (bp 10926), all PASS print_check (3 inks). 2027 Garden Planner: 34 pages, Letter/A4 colour + BW, GoodNotes hype",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T13:53:18Z",
    "bot": "Pixel",
@@ -1147,32 +1177,6 @@
    "time": "2026-10-14T23:59:48Z",
    "bot": "Lister",
    "message": "Drafted 22 birding listings (15 tees, 7 mugs); awaiting Sentry QA and Dawson approval",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T23:58:49Z",
-   "bot": "Lister",
-   "message": "started: Writing birding listing drafts",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T23:58:17Z",
-   "bot": "Pipeline",
-   "message": "Birding collection moved Idea → Design",
-   "type": "build",
-   "instance": "L0-a",
-   "line": "L0"
-  },
-  {
-   "time": "2026-10-14T23:58:16Z",
-   "bot": "Pixel",
-   "message": "Birding designs done: 15 tees + 7 mug wraps, all print_check PASS (3 inks)",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T23:50:45Z",
-   "bot": "Pixel",
-   "message": "started: Birding designs",
    "type": "build"
   }
  ],
