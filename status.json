@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:00:23Z",
+ "updated": "2026-10-15T00:06:32Z",
  "bots": [
   {
    "id": "oki",
@@ -40,7 +40,7 @@
    "role": "Designs",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-14T23:58:18Z",
+   "last_active": "2026-10-15T00:06:32Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:06:32Z",
+   "bot": "Pixel",
+   "message": "Mug wraps re-laid out for Printify bp 478 11oz 'front' 2475x1155 (confirmed via API). All 15 mugs (8 chicken + 7 birding) now have art on both halves, all PASS print_check (mug target updated). Old wr",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:00:23Z",
    "bot": "Lister",
