@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T13:31:08Z",
+ "updated": "2026-10-15T13:53:18Z",
  "bots": [
   {
    "id": "oki",
@@ -38,9 +38,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-15T00:32:42Z",
+   "state": "working",
+   "task": "Gardening designs + 2027 Garden Planner",
+   "last_active": "2026-10-15T13:53:18Z",
    "lines": [
     "L0",
     "L1",
@@ -614,6 +614,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T13:53:18Z",
+   "bot": "Pixel",
+   "message": "started: Gardening designs + 2027 Garden Planner",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T13:31:08Z",
    "bot": "Pipeline",
    "message": "Garden Planner 2027 moved → Idea",
@@ -1168,14 +1174,6 @@
    "bot": "Pixel",
    "message": "started: Birding designs",
    "type": "build"
-  },
-  {
-   "time": "2026-10-14T23:50:20Z",
-   "bot": "Pipeline",
-   "message": "Birding collection moved → Idea",
-   "type": "build",
-   "instance": "L0-a",
-   "line": "L0"
   }
  ],
  "version": 2,
