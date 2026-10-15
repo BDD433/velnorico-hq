@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T13:23:23Z",
+ "updated": "2026-10-15T13:23:26Z",
  "bots": [
   {
    "id": "oki",
@@ -25,7 +25,7 @@
    "role": "Niche research",
    "state": "working",
    "task": "Niche scan week 1: new products and niches",
-   "last_active": "2026-10-15T13:23:23Z",
+   "last_active": "2026-10-15T13:23:26Z",
    "lines": [
     "L0",
     "L1",
@@ -600,6 +600,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T13:23:26Z",
+   "bot": "Scout",
+   "message": "Started every-2-day new-product and niche scan (week 1)",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T13:23:23Z",
    "bot": "Scout",
    "message": "started: Niche scan week 1: new products and niches",
@@ -1151,12 +1157,6 @@
    "time": "2026-10-14T22:31:10Z",
    "bot": "Pixel",
    "message": "Payhip QA fixes rendered",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T22:27:22Z",
-   "bot": "Pixel",
-   "message": "Payhip screenshots re-rendered",
    "type": "build"
   }
  ],
