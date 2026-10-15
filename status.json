@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:00:21Z",
+ "updated": "2026-10-15T00:00:23Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Updating birding drafts",
-   "last_active": "2026-10-15T00:00:21Z",
+   "state": "idle",
+   "task": "Birding drafts updated",
+   "last_active": "2026-10-15T00:00:23Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:00:23Z",
+   "bot": "Lister",
+   "message": "Birding drafts updated",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:00:21Z",
    "bot": "Lister",
