@@ -4,7 +4,7 @@ var HQ=window.HQ||{};window.HQ=HQ;
 var DAYS=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],STAGES=["idea","building","qa","awaiting","live","paused"],
  SN={idea:"IDEA",building:"BUILDING",qa:"QA (SENTRY)",awaiting:"AWAITING DAWSON",live:"LIVE",paused:"PAUSED"},
  PSTAGE={Idea:"idea",Design:"building",Listing:"qa",Pin:"awaiting",Live:"live"},F={l:"",i:"",b:"",t:""},D=null;
-HQ.BNAME={barn:"Etsy Studio Pod",library:"Payhip Archive",workshop:"Apify/Chrome Fab Lab",greenhouse:"Adobe Stock Hydro Bay",newsroom:"Content Broadcast Deck",market:"Fiverr Arcade"};
+HQ.BNAME={barn:"Etsy Studio",library:"Payhip Archive",workshop:"Apify/Chrome Lab",greenhouse:"Adobe Stock Garden",newsroom:"Content Broadcast",market:"Fiverr Lounge"};
 HQ.HOME={oki:"plaza",scout:"barn",pixel:"barn",lister:"barn",ledger:"barn",forge:"workshop",sentry:"plaza",lumen:"greenhouse",quill:"newsroom",clerk:"market"};
 function el(i){return document.getElementById(i);}HQ.el=el;
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}HQ.esc=esc;
