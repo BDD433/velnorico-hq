@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T14:03:34Z",
+ "updated": "2026-10-15T14:03:37Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Gardening blueprint research, birding art verification, tee 01/14 JSON",
-   "last_active": "2026-10-15T14:03:34Z",
+   "state": "idle",
+   "task": "Verification tasks done",
+   "last_active": "2026-10-15T14:03:37Z",
    "lines": [
     "L0",
     "L1",
@@ -616,6 +616,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T14:03:37Z",
+   "bot": "Lister",
+   "message": "Verification tasks done",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T14:03:34Z",
    "bot": "Lister",
    "message": "Gardening tote bp 1313 / apron bp 10926 specs verified in Printify catalog (read-only). All 22 birding Printify images verified as Sentry-PASS art, no swaps needed. Tee 01/14 JSONs marked LIVE with id",
@@ -1171,12 +1177,6 @@
    "time": "2026-10-15T00:00:21Z",
    "bot": "Lister",
    "message": "Birding tees: swapped Sage for Vintage White; mug wrap position checked in catalog",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:00:17Z",
-   "bot": "Lister",
-   "message": "started: Updating birding drafts",
    "type": "build"
   }
  ],
