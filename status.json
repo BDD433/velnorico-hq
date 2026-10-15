@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:20:27Z",
+ "updated": "2026-10-15T00:20:28Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Publishing approved chicken batch",
-   "last_active": "2026-10-15T00:20:27Z",
+   "state": "idle",
+   "task": "Mug republish done; batch held for QA",
+   "last_active": "2026-10-15T00:20:28Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:20:28Z",
+   "bot": "Lister",
+   "message": "Mug republish done; batch held for QA",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:20:27Z",
    "bot": "Lister",
@@ -838,12 +844,6 @@
    "time": "2026-10-14T18:57:00Z",
    "bot": "Lister",
    "message": "Pin titles, descriptions & Etsy links written for 18 pin images",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T18:43:00Z",
-   "bot": "Pixel",
-   "message": "Rendered 18 Pinterest pin images + contact sheet",
    "type": "build"
   }
  ],
