@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:08:02Z",
+ "updated": "2026-10-15T00:14:26Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "idle",
-   "task": "Mug wrap swap done",
-   "last_active": "2026-10-15T00:08:02Z",
+   "state": "working",
+   "task": "Applying birding QA to drafts",
+   "last_active": "2026-10-15T00:14:26Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:14:26Z",
+   "bot": "Lister",
+   "message": "started: Applying birding QA to drafts",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:08:02Z",
    "bot": "Lister",
