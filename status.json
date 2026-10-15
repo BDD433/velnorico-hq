@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:31:21Z",
+ "updated": "2026-10-15T00:32:42Z",
  "bots": [
   {
    "id": "oki",
@@ -40,7 +40,7 @@
    "role": "Designs",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-15T00:17:12Z",
+   "last_active": "2026-10-15T00:32:42Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:32:42Z",
+   "bot": "Pixel",
+   "message": "Birding optional polish done (specks cleaned on all, 16 FIG. 1 spacing, 20 bird faces the sound, 24 binoculars in side window, 23/30 mug lines ~10 px, 27 raised, 29 centred). Chicken QA art fixes: 05 ",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:31:21Z",
    "bot": "Lister",
@@ -836,12 +842,6 @@
   },
   {
    "time": "2026-10-14T20:31:36Z",
-   "bot": "Oki",
-   "message": "HQ team office page is live",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:29:36Z",
    "bot": "Oki",
    "message": "HQ team office page is live",
    "type": "build"
