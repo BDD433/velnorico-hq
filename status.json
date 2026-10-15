@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T14:08:36Z",
+ "updated": "2026-10-15T14:08:38Z",
  "bots": [
   {
    "id": "oki",
@@ -38,9 +38,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "working",
-   "task": "Gardening QA fixes",
-   "last_active": "2026-10-15T14:08:36Z",
+   "state": "idle",
+   "task": "Waiting on a replacement 36 phrase",
+   "last_active": "2026-10-15T14:08:38Z",
    "lines": [
     "L0",
     "L1",
@@ -602,8 +602,8 @@
    "name": "Gardening collection",
    "instance": "L0-a",
    "stage": "Design",
-   "since": "2026-10-15T13:53:20Z",
-   "note": "11 tees + 7 mugs + 2 totes + 2 aprons ready, all PASS"
+   "since": "2026-10-15T14:08:38Z",
+   "note": "10 tees + 6 mugs + 35 tote/apron PASS; 36 dropped, needs new phrase"
   },
   {
    "id": "garden-planner-2027",
@@ -615,6 +615,26 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T14:08:38Z",
+   "bot": "Pixel",
+   "message": "Waiting on a replacement 36 phrase",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T14:08:38Z",
+   "bot": "Pipeline",
+   "message": "Gardening collection moved Design → Design",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T14:08:38Z",
+   "bot": "Pixel",
+   "message": "Gardening QA fixes done: title clearance >=60px on all tees, 37 halo + arrow, 35 apron inset, Printify bp 10926/1313 print areas confirmed (read-only), planner mockup 02 dates + US spelling, PDFs/zip ",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T14:08:36Z",
    "bot": "Pixel",
@@ -1159,24 +1179,6 @@
    "time": "2026-10-15T00:08:01Z",
    "bot": "Lister",
    "message": "Mug print-fit: swapped wrap art on 3 Printify mugs (Coop Crew, My Chickens Think I'm Hilarious, Eggs Are My Love Language); Chicken Math held for review; no publish",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:07:09Z",
-   "bot": "Lister",
-   "message": "started: Mug wrap print-fit swap",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:06:32Z",
-   "bot": "Pixel",
-   "message": "Mug wraps re-laid out for Printify bp 478 11oz 'front' 2475x1155 (confirmed via API). All 15 mugs (8 chicken + 7 birding) now have art on both halves, all PASS print_check (mug target updated). Old wr",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:00:23Z",
-   "bot": "Lister",
-   "message": "Birding drafts updated",
    "type": "build"
   }
  ],
