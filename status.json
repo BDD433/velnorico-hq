@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:14:35Z",
+ "updated": "2026-10-15T00:17:12Z",
  "bots": [
   {
    "id": "oki",
@@ -40,7 +40,7 @@
    "role": "Designs",
    "state": "idle",
    "task": "Waiting for next task",
-   "last_active": "2026-10-15T00:06:32Z",
+   "last_active": "2026-10-15T00:17:12Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:17:12Z",
+   "bot": "Pixel",
+   "message": "Birding QA fixes done: 19 Feeder Gossip tee (loop no longer cut off, 229 px top margin, larger psst) + mug rebuilt; 25 Warbler Season tee (lower warbler perched on a twig, solid wing bars, bottom marg",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:14:35Z",
    "bot": "Lister",
@@ -838,12 +844,6 @@
    "time": "2026-10-14T18:19:00Z",
    "bot": "Oki",
    "message": "Printify draft tool ready",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T12:09:00Z",
-   "bot": "Oki",
-   "message": "Launch checklist updated",
    "type": "build"
   }
  ],
