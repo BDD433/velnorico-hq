@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T14:08:38Z",
+ "updated": "2026-10-15T14:09:24Z",
  "bots": [
   {
    "id": "oki",
@@ -25,7 +25,7 @@
    "role": "Niche research",
    "state": "idle",
    "task": "Week-1 niche scan complete",
-   "last_active": "2026-10-15T13:31:08Z",
+   "last_active": "2026-10-15T14:09:24Z",
    "lines": [
     "L0",
     "L1",
@@ -616,6 +616,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T14:09:24Z",
+   "bot": "Scout",
+   "message": "Swapped a gardening phrase after an all-class trademark check",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T14:08:38Z",
    "bot": "Pixel",
    "message": "Waiting on a replacement 36 phrase",
@@ -1173,12 +1179,6 @@
    "time": "2026-10-15T00:08:02Z",
    "bot": "Lister",
    "message": "Mug wrap swap done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:08:01Z",
-   "bot": "Lister",
-   "message": "Mug print-fit: swapped wrap art on 3 Printify mugs (Coop Crew, My Chickens Think I'm Hilarious, Eggs Are My Love Language); Chicken Math held for review; no publish",
    "type": "build"
   }
  ],
