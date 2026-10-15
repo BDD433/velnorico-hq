@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T23:59:50Z",
+ "updated": "2026-10-15T00:00:21Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "idle",
-   "task": "Birding listing drafts done",
-   "last_active": "2026-10-14T23:59:50Z",
+   "state": "working",
+   "task": "Updating birding drafts",
+   "last_active": "2026-10-15T00:00:21Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,18 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:00:21Z",
+   "bot": "Lister",
+   "message": "Birding tees: swapped Sage for Vintage White; mug wrap position checked in catalog",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T00:00:17Z",
+   "bot": "Lister",
+   "message": "started: Updating birding drafts",
+   "type": "build"
+  },
   {
    "time": "2026-10-14T23:59:50Z",
    "bot": "Lister",
