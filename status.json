@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:08:01Z",
+ "updated": "2026-10-15T00:08:02Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Mug wrap print-fit swap",
-   "last_active": "2026-10-15T00:08:01Z",
+   "state": "idle",
+   "task": "Mug wrap swap done",
+   "last_active": "2026-10-15T00:08:02Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:08:02Z",
+   "bot": "Lister",
+   "message": "Mug wrap swap done",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:08:01Z",
    "bot": "Lister",
