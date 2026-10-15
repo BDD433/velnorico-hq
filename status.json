@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:17:12Z",
+ "updated": "2026-10-15T00:20:27Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "idle",
-   "task": "Birding QA applied",
-   "last_active": "2026-10-15T00:14:35Z",
+   "state": "working",
+   "task": "Publishing approved chicken batch",
+   "last_active": "2026-10-15T00:20:27Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,18 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:20:27Z",
+   "bot": "Lister",
+   "message": "Republished 4 chicken mugs with new wrap mockups via Printify (titles, tags, prices untouched). Chicken batch held: no Sentry QA on file; printables held for manual upload",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T00:17:21Z",
+   "bot": "Lister",
+   "message": "started: Publishing approved chicken batch",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:17:12Z",
    "bot": "Pixel",
@@ -832,18 +844,6 @@
    "time": "2026-10-14T18:43:00Z",
    "bot": "Pixel",
    "message": "Rendered 18 Pinterest pin images + contact sheet",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T18:22:00Z",
-   "bot": "Ledger",
-   "message": "Updated finance sheet and listing drafts",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T18:19:00Z",
-   "bot": "Oki",
-   "message": "Printify draft tool ready",
    "type": "build"
   }
  ],
