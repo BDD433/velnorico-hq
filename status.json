@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:50:50Z",
+ "updated": "2026-10-15T00:50:53Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Creating 22 birding products as hidden Etsy drafts",
-   "last_active": "2026-10-15T00:46:48Z",
+   "state": "idle",
+   "task": "Birding batch drafts done; awaiting Dawson activation",
+   "last_active": "2026-10-15T00:50:53Z",
    "lines": [
     "L0",
     "L1",
@@ -428,9 +428,357 @@
    "stage": "Listing",
    "since": "2026-10-15T00:50:50Z",
    "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "17-lifer-hunter",
+   "name": "17-lifer-hunter",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "18-big-year-energy",
+   "name": "18-big-year-energy",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "19-feeder-gossip",
+   "name": "19-feeder-gossip",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "19-feeder-gossip-mug",
+   "name": "19-feeder-gossip-mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "20-pishing-expert",
+   "name": "20-pishing-expert",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "21-field-mark-fanatic",
+   "name": "21-field-mark-fanatic",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "22-birding-is-my-therapy",
+   "name": "22-birding-is-my-therapy",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "22-birding-is-my-therapy-mug",
+   "name": "22-birding-is-my-therapy-mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "23-life-lister",
+   "name": "23-life-lister",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "23-life-lister-mug",
+   "name": "23-life-lister-mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "24-i-brake-for-birds",
+   "name": "24-i-brake-for-birds",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "25-warbler-season",
+   "name": "25-warbler-season",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "26-binoculars-ready",
+   "name": "26-binoculars-ready",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:52Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "27-just-here-for-the-birds",
+   "name": "27-just-here-for-the-birds",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "27-just-here-for-the-birds-mug",
+   "name": "27-just-here-for-the-birds-mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "28-backyard-birder",
+   "name": "28-backyard-birder",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "28-backyard-birder-mug",
+   "name": "28-backyard-birder-mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "29-chickadee-fan-club",
+   "name": "29-chickadee-fan-club",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "29-chickadee-fan-club-mug",
+   "name": "29-chickadee-fan-club-mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "30-retired-and-birding",
+   "name": "30-retired-and-birding",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "30-retired-and-birding-mug",
+   "name": "30-retired-and-birding-mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:53Z",
+   "note": "hidden Etsy draft, Dawson to activate"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Lister",
+   "message": "Birding batch drafts done; awaiting Dawson activation",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Lister",
+   "message": "Birding batch: 22 products (15 tees + 7 mugs) created in Printify and pushed to Etsy as hidden drafts; Dawson to review/activate. Tee 29 art already centred.",
+   "type": "publish"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "30-retired-and-birding-mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "30-retired-and-birding moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "29-chickadee-fan-club-mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "29-chickadee-fan-club moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "28-backyard-birder-mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "28-backyard-birder moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "27-just-here-for-the-birds-mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:53Z",
+   "bot": "Pipeline",
+   "message": "27-just-here-for-the-birds moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "26-binoculars-ready moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "25-warbler-season moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "24-i-brake-for-birds moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "23-life-lister-mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "23-life-lister moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "22-birding-is-my-therapy-mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "22-birding-is-my-therapy moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "21-field-mark-fanatic moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "20-pishing-expert moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "19-feeder-gossip-mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "19-feeder-gossip moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "18-big-year-energy moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:50:52Z",
+   "bot": "Pipeline",
+   "message": "17-lifer-hunter moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
   {
    "time": "2026-10-15T00:50:50Z",
    "bot": "Pipeline",
@@ -809,148 +1157,6 @@
    "time": "2026-10-14T22:24:38Z",
    "bot": "Pixel",
    "message": "Velnori Studio store design done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T22:21:43Z",
-   "bot": "Lister",
-   "message": "Payhip store copy drafted",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T22:21:43Z",
-   "bot": "Lister",
-   "message": "Drafted Velnori Studio Payhip store copy for 3 spreadsheet templates; awaiting Dawson approval",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T22:21:29Z",
-   "bot": "Pixel",
-   "message": "started: Velnori Studio store design",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T22:21:21Z",
-   "bot": "Lister",
-   "message": "started: Writing Payhip store copy",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T21:21:00Z",
-   "bot": "Forge",
-   "type": "handoff",
-   "to": "Sentry",
-   "line": "L0",
-   "message": "Campus build ready for money-safety QA"
-  },
-  {
-   "time": "2026-10-14T21:20:00Z",
-   "bot": "Oki",
-   "type": "handoff",
-   "to": "Forge",
-   "line": "L0",
-   "message": "HQ campus upgrade spec handed to Forge"
-  },
-  {
-   "time": "2026-10-14T20:59:00Z",
-   "bot": "Lister",
-   "message": "Printable drafts updated",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:58:58Z",
-   "bot": "Lister",
-   "message": "Updated 5 printable drafts: planner verified at 67 pages with all 4 singles inside; bundle and cross-sell lines added",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:58:43Z",
-   "bot": "Lister",
-   "message": "started: Updating printable listings",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:58:13Z",
-   "bot": "Pixel",
-   "message": "Printables polish done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:57:45Z",
-   "bot": "Pixel",
-   "message": "Flock Planner polished",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:56:13Z",
-   "bot": "Lister",
-   "message": "Printable listing drafts done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:56:13Z",
-   "bot": "Lister",
-   "message": "Wrote 5 printable listing drafts (planner, egg log, hatch tracker, health record, chore chart); awaiting Dawson approval",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:55:49Z",
-   "bot": "Lister",
-   "message": "started: Writing printable listings",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:55:45Z",
-   "bot": "Pixel",
-   "message": "started: Printables polish pass",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:55:00Z",
-   "bot": "Pixel",
-   "message": "Coop Chore Chart printable done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:55:00Z",
-   "bot": "Pixel",
-   "message": "Flock Health Record printable done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:55:00Z",
-   "bot": "Pixel",
-   "message": "Hatching Tracker printable done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:55:00Z",
-   "bot": "Pixel",
-   "message": "Daily Egg Log printable done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:54:58Z",
-   "bot": "Pixel",
-   "message": "Backyard Flock Planner printable done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:50:23Z",
-   "bot": "Pixel",
-   "message": "started: Designing 5 chicken printables",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:49:48Z",
-   "bot": "Pipeline",
-   "message": "Coop Chore Chart & Safe Treats Cheat Sheet moved → Idea",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:49:48Z",
-   "bot": "Pipeline",
-   "message": "Flock Health Record moved → Idea",
    "type": "build"
   }
  ],
