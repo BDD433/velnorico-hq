@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:41:37Z",
+ "updated": "2026-10-15T00:46:48Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "idle",
-   "task": "Chicken batch drafts done; birding awaiting approval",
-   "last_active": "2026-10-15T00:41:37Z",
+   "state": "working",
+   "task": "Creating 22 birding products as hidden Etsy drafts",
+   "last_active": "2026-10-15T00:46:48Z",
    "lines": [
     "L0",
     "L1",
@@ -423,6 +423,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:46:48Z",
+   "bot": "Lister",
+   "message": "started: Creating 22 birding products as hidden Etsy drafts",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:41:37Z",
    "bot": "Lister",
@@ -935,12 +941,6 @@
    "time": "2026-10-14T20:49:48Z",
    "bot": "Pipeline",
    "message": "21-Day Hatching & Incubation Tracker moved → Idea",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:49:47Z",
-   "bot": "Pipeline",
-   "message": "Daily Egg Log & Production Tracker moved → Idea",
    "type": "build"
   }
  ],
