@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T20:25:58Z",
+ "updated": "2026-10-15T20:26:18Z",
  "bots": [
   {
    "id": "oki",
@@ -39,8 +39,8 @@
    "emoji": "🐰",
    "role": "Designs",
    "state": "idle",
-   "task": "Gardening set complete",
-   "last_active": "2026-10-15T14:13:47Z",
+   "task": "Waiting for next task",
+   "last_active": "2026-10-15T20:26:18Z",
    "lines": [
     "L0",
     "L1",
