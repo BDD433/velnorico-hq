@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:50:53Z",
+ "updated": "2026-10-15T13:23:23Z",
  "bots": [
   {
    "id": "oki",
@@ -23,9 +23,9 @@
    "name": "Scout",
    "emoji": "🦊",
    "role": "Niche research",
-   "state": "idle",
-   "task": "Waiting for next task",
-   "last_active": "2026-10-14T23:50:20Z",
+   "state": "working",
+   "task": "Niche scan week 1: new products and niches",
+   "last_active": "2026-10-15T13:23:23Z",
    "lines": [
     "L0",
     "L1",
@@ -600,6 +600,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T13:23:23Z",
+   "bot": "Scout",
+   "message": "started: Niche scan week 1: new products and niches",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T00:50:53Z",
    "bot": "Lister",
    "message": "Birding batch drafts done; awaiting Dawson activation",
@@ -1151,12 +1157,6 @@
    "time": "2026-10-14T22:27:22Z",
    "bot": "Pixel",
    "message": "Payhip screenshots re-rendered",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T22:24:38Z",
-   "bot": "Pixel",
-   "message": "Velnori Studio store design done",
    "type": "build"
   }
  ],
