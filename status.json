@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:22:48Z",
+ "updated": "2026-10-15T00:22:50Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Fixing Chicken Lady mug and Egg Collector tee copy",
-   "last_active": "2026-10-15T00:22:48Z",
+   "state": "idle",
+   "task": "Copy fixes done",
+   "last_active": "2026-10-15T00:22:50Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:22:50Z",
+   "bot": "Lister",
+   "message": "Copy fixes done",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:22:48Z",
    "bot": "Lister",
@@ -838,12 +844,6 @@
    "time": "2026-10-14T20:19:00Z",
    "bot": "Scout",
    "message": "Finished research: visual workspace options + top 8 store optimizations",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T19:55:00Z",
-   "bot": "Lister",
-   "message": "Pinterest bulk-upload CSV ready: 16 pins scheduled Oct 15–20",
    "type": "build"
   }
  ],
