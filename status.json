@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:36:47Z",
+ "updated": "2026-10-15T00:41:35Z",
  "bots": [
   {
    "id": "oki",
@@ -372,9 +372,25 @@
    "stage": "Listing",
    "since": "2026-10-15T00:36:44Z",
    "note": "On Etsy as draft via Printify; Dawson activates"
+  },
+  {
+   "id": "02-coop-crew-tee",
+   "name": "02 Coop Crew tee",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:41:35Z",
+   "note": "hidden Etsy draft, Dawson to activate"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:41:35Z",
+   "bot": "Pipeline",
+   "message": "02 Coop Crew tee moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
   {
    "time": "2026-10-15T00:36:47Z",
    "bot": "Lister",
@@ -875,12 +891,6 @@
    "time": "2026-10-14T20:36:39Z",
    "bot": "Lister",
    "message": "started: Writing pin text",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:36:29Z",
-   "bot": "Scout",
-   "message": "Designed my HQ character: explorer with spyglass",
    "type": "build"
   }
  ],
