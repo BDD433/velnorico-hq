@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T14:09:24Z",
+ "updated": "2026-10-15T14:13:43Z",
  "bots": [
   {
    "id": "oki",
@@ -38,9 +38,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "idle",
-   "task": "Waiting on a replacement 36 phrase",
-   "last_active": "2026-10-15T14:08:38Z",
+   "state": "working",
+   "task": "36 Too Many Tomatoes",
+   "last_active": "2026-10-15T14:13:43Z",
    "lines": [
     "L0",
     "L1",
@@ -616,6 +616,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T14:13:43Z",
+   "bot": "Pixel",
+   "message": "started: 36 Too Many Tomatoes",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T14:09:24Z",
    "bot": "Scout",
    "message": "Swapped a gardening phrase after an all-class trademark check",
@@ -1173,12 +1179,6 @@
    "time": "2026-10-15T00:14:26Z",
    "bot": "Lister",
    "message": "started: Applying birding QA to drafts",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:08:02Z",
-   "bot": "Lister",
-   "message": "Mug wrap swap done",
    "type": "build"
   }
  ],
