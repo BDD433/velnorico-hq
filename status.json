@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:14:26Z",
+ "updated": "2026-10-15T00:14:35Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Applying birding QA to drafts",
-   "last_active": "2026-10-15T00:14:26Z",
+   "state": "idle",
+   "task": "Birding QA applied",
+   "last_active": "2026-10-15T00:14:35Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,18 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:14:35Z",
+   "bot": "Lister",
+   "message": "Birding QA applied",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T00:14:35Z",
+   "bot": "Lister",
+   "message": "Applied Sentry birding QA to drafts: 19 PASS, 3 on hold for Pixel fixes; tees limited to white, natural, cream",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:14:26Z",
    "bot": "Lister",
@@ -832,12 +844,6 @@
    "time": "2026-10-14T12:09:00Z",
    "bot": "Oki",
    "message": "Launch checklist updated",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T06:24:00Z",
-   "bot": "Pixel",
-   "message": "Chicken designs finalized",
    "type": "build"
   }
  ],
