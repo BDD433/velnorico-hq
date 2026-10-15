@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:41:35Z",
+ "updated": "2026-10-15T00:41:37Z",
  "bots": [
   {
    "id": "oki",
@@ -53,8 +53,8 @@
    "emoji": "🐶",
    "role": "Listings & Pinterest",
    "state": "idle",
-   "task": "Chicken batch done",
-   "last_active": "2026-10-15T00:36:47Z",
+   "task": "Chicken batch drafts done; birding awaiting approval",
+   "last_active": "2026-10-15T00:41:37Z",
    "lines": [
     "L0",
     "L1",
@@ -380,9 +380,101 @@
    "stage": "Listing",
    "since": "2026-10-15T00:41:35Z",
    "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "05-egg-dealer-tee",
+   "name": "05 Egg Dealer tee",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:41:36Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "09-feathered-therapy-tee",
+   "name": "09 Feathered Therapy tee",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:41:36Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "12-chicken-lady-tee",
+   "name": "12 Chicken Lady tee",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:41:36Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "13-just-a-girl-who-loves-chickens-tee",
+   "name": "13 Just a Girl Who Loves Chickens tee",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:41:36Z",
+   "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "03-free-range-chaos-mug",
+   "name": "03 Free Range Chaos mug",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:41:36Z",
+   "note": "hidden Etsy draft, Dawson to activate"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:41:37Z",
+   "bot": "Lister",
+   "message": "Chicken batch drafts done; birding awaiting approval",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-15T00:41:37Z",
+   "bot": "Lister",
+   "message": "Published 6 Sentry-PASS chicken items as hidden Etsy drafts (tees 02,05,09,12,13 + mug 03); tee 09 art centred. 10 earlier drafts verified. Birding 22 drafts local: AI tools wording, Sentry PASS, awai",
+   "type": "publish"
+  },
+  {
+   "time": "2026-10-15T00:41:36Z",
+   "bot": "Pipeline",
+   "message": "03 Free Range Chaos mug moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:41:36Z",
+   "bot": "Pipeline",
+   "message": "13 Just a Girl Who Loves Chickens tee moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:41:36Z",
+   "bot": "Pipeline",
+   "message": "12 Chicken Lady tee moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:41:36Z",
+   "bot": "Pipeline",
+   "message": "09 Feathered Therapy tee moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
+  {
+   "time": "2026-10-15T00:41:36Z",
+   "bot": "Pipeline",
+   "message": "05 Egg Dealer tee moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
   {
    "time": "2026-10-15T00:41:35Z",
    "bot": "Pipeline",
@@ -849,48 +941,6 @@
    "time": "2026-10-14T20:49:47Z",
    "bot": "Pipeline",
    "message": "Daily Egg Log & Production Tracker moved → Idea",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:49:47Z",
-   "bot": "Pipeline",
-   "message": "Backyard Flock Planner moved → Idea",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:49:46Z",
-   "bot": "Scout",
-   "message": "Picked top 5 chicken printables",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:49:00Z",
-   "bot": "Scout",
-   "message": "started: Researching chicken printables",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:48:56Z",
-   "bot": "Pixel",
-   "message": "started: Printables: waiting on Scout's top 5",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:37:23Z",
-   "bot": "Pixel",
-   "message": "18 fresh pins queued",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:37:08Z",
-   "bot": "Lister",
-   "message": "Fresh pin text written",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:36:39Z",
-   "bot": "Lister",
-   "message": "started: Writing pin text",
    "type": "build"
   }
  ],
