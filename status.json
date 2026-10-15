@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:46:48Z",
+ "updated": "2026-10-15T00:50:50Z",
  "bots": [
   {
    "id": "oki",
@@ -420,9 +420,25 @@
    "stage": "Listing",
    "since": "2026-10-15T00:41:36Z",
    "note": "hidden Etsy draft, Dawson to activate"
+  },
+  {
+   "id": "16-warbler-watcher",
+   "name": "16-warbler-watcher",
+   "instance": "L0-a",
+   "stage": "Listing",
+   "since": "2026-10-15T00:50:50Z",
+   "note": "hidden Etsy draft, Dawson to activate"
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:50:50Z",
+   "bot": "Pipeline",
+   "message": "16-warbler-watcher moved → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
   {
    "time": "2026-10-15T00:46:48Z",
    "bot": "Lister",
@@ -935,12 +951,6 @@
    "time": "2026-10-14T20:49:48Z",
    "bot": "Pipeline",
    "message": "Flock Health Record moved → Idea",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:49:48Z",
-   "bot": "Pipeline",
-   "message": "21-Day Hatching & Incubation Tracker moved → Idea",
    "type": "build"
   }
  ],
