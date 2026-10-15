@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:26:33Z",
+ "updated": "2026-10-15T00:27:10Z",
  "bots": [
   {
    "id": "oki",
@@ -54,7 +54,7 @@
    "role": "Listings & Pinterest",
    "state": "idle",
    "task": "Copy fixes done",
-   "last_active": "2026-10-15T00:26:33Z",
+   "last_active": "2026-10-15T00:27:10Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:27:10Z",
+   "bot": "Lister",
+   "message": "Printable drafts synced to current zip contents (all PDF; GoodNotes added to singles)",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:26:33Z",
    "bot": "Lister",
@@ -838,12 +844,6 @@
    "time": "2026-10-14T20:29:34Z",
    "bot": "Oki",
    "message": "started: Publishing the HQ team office page",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:28:00Z",
-   "bot": "Oki",
-   "message": "Started building the HQ team office page",
    "type": "build"
   }
  ],
