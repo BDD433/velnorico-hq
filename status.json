@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:07:09Z",
+ "updated": "2026-10-15T00:08:01Z",
  "bots": [
   {
    "id": "oki",
@@ -54,7 +54,7 @@
    "role": "Listings & Pinterest",
    "state": "working",
    "task": "Mug wrap print-fit swap",
-   "last_active": "2026-10-15T00:07:09Z",
+   "last_active": "2026-10-15T00:08:01Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:08:01Z",
+   "bot": "Lister",
+   "message": "Mug print-fit: swapped wrap art on 3 Printify mugs (Coop Crew, My Chickens Think I'm Hilarious, Eggs Are My Love Language); Chicken Math held for review; no publish",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:07:09Z",
    "bot": "Lister",
