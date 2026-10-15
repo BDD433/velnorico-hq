@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T15:32:42Z",
+ "updated": "2026-10-15T20:25:55Z",
  "bots": [
   {
    "id": "oki",
@@ -24,8 +24,8 @@
    "emoji": "🦊",
    "role": "Niche research",
    "state": "idle",
-   "task": "Week-1 niche scan complete",
-   "last_active": "2026-10-15T14:09:24Z",
+   "task": "Waiting for next task",
+   "last_active": "2026-10-15T20:25:55Z",
    "lines": [
     "L0",
     "L1",
