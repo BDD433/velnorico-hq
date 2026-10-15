@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T14:03:37Z",
+ "updated": "2026-10-15T14:08:36Z",
  "bots": [
   {
    "id": "oki",
@@ -38,9 +38,9 @@
    "name": "Pixel",
    "emoji": "🐰",
    "role": "Designs",
-   "state": "idle",
-   "task": "Gardening batch delivered",
-   "last_active": "2026-10-15T13:53:20Z",
+   "state": "working",
+   "task": "Gardening QA fixes",
+   "last_active": "2026-10-15T14:08:36Z",
    "lines": [
     "L0",
     "L1",
@@ -616,6 +616,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T14:08:36Z",
+   "bot": "Pixel",
+   "message": "started: Gardening QA fixes",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T14:03:37Z",
    "bot": "Lister",
    "message": "Verification tasks done",
@@ -1171,12 +1177,6 @@
    "time": "2026-10-15T00:00:23Z",
    "bot": "Lister",
    "message": "Birding drafts updated",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:00:21Z",
-   "bot": "Lister",
-   "message": "Birding tees: swapped Sage for Vintage White; mug wrap position checked in catalog",
    "type": "build"
   }
  ],
