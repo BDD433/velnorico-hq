@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:32:42Z",
+ "updated": "2026-10-15T00:36:43Z",
  "bots": [
   {
    "id": "oki",
@@ -190,11 +190,12 @@
    "instance": "L0-a"
   },
   {
-   "stage": "Design",
-   "note": "Design + listing copy ready",
+   "stage": "Listing",
+   "note": "On Etsy as draft via Printify; Dawson activates",
    "id": "03-free-range-chaos",
    "name": "Free Range Chaos Tee",
-   "instance": "L0-a"
+   "instance": "L0-a",
+   "since": "2026-10-15T00:36:43Z"
   },
   {
    "stage": "Live",
@@ -358,6 +359,14 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:36:43Z",
+   "bot": "Pipeline",
+   "message": "Free Range Chaos Tee moved Design → Listing",
+   "type": "build",
+   "instance": "L0-a",
+   "line": "L0"
+  },
   {
    "time": "2026-10-15T00:32:42Z",
    "bot": "Pixel",
@@ -838,12 +847,6 @@
    "time": "2026-10-14T20:33:15Z",
    "bot": "Oki",
    "message": "started: Polished HQ page bubbles; starting store improvements",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:31:36Z",
-   "bot": "Oki",
-   "message": "HQ team office page is live",
    "type": "build"
   }
  ],
