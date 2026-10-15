@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T13:53:20Z",
+ "updated": "2026-10-15T14:01:48Z",
  "bots": [
   {
    "id": "oki",
@@ -52,9 +52,9 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "idle",
-   "task": "Birding batch drafts done; awaiting Dawson activation",
-   "last_active": "2026-10-15T00:50:53Z",
+   "state": "working",
+   "task": "Gardening blueprint research, birding art verification, tee 01/14 JSON",
+   "last_active": "2026-10-15T14:01:48Z",
    "lines": [
     "L0",
     "L1",
@@ -616,6 +616,12 @@
  ],
  "activity": [
   {
+   "time": "2026-10-15T14:01:48Z",
+   "bot": "Lister",
+   "message": "started: Gardening blueprint research, birding art verification, tee 01/14 JSON",
+   "type": "build"
+  },
+  {
    "time": "2026-10-15T13:53:20Z",
    "bot": "Pixel",
    "message": "Gardening batch delivered",
@@ -1171,12 +1177,6 @@
    "time": "2026-10-14T23:59:50Z",
    "bot": "Lister",
    "message": "Birding listing drafts done",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T23:59:48Z",
-   "bot": "Lister",
-   "message": "Drafted 22 birding listings (15 tees, 7 mugs); awaiting Sentry QA and Dawson approval",
    "type": "build"
   }
  ],
