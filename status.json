@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T00:22:50Z",
+ "updated": "2026-10-15T00:26:33Z",
  "bots": [
   {
    "id": "oki",
@@ -54,7 +54,7 @@
    "role": "Listings & Pinterest",
    "state": "idle",
    "task": "Copy fixes done",
-   "last_active": "2026-10-15T00:22:50Z",
+   "last_active": "2026-10-15T00:26:33Z",
    "lines": [
     "L0",
     "L1",
@@ -358,6 +358,12 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-15T00:26:33Z",
+   "bot": "Lister",
+   "message": "Egg Collector tee: swapped one risky tag via Printify tags-only publish",
+   "type": "build"
+  },
   {
    "time": "2026-10-15T00:22:50Z",
    "bot": "Lister",
@@ -838,12 +844,6 @@
    "time": "2026-10-14T20:28:00Z",
    "bot": "Oki",
    "message": "Started building the HQ team office page",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-14T20:19:00Z",
-   "bot": "Scout",
-   "message": "Finished research: visual workspace options + top 8 store optimizations",
    "type": "build"
   }
  ],
