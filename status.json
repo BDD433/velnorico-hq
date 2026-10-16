@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T20:26:18Z",
+ "updated": "2026-10-16T06:57:10Z",
  "bots": [
   {
    "id": "oki",
@@ -7,7 +7,7 @@
    "emoji": "🦉",
    "role": "Chief",
    "state": "idle",
-   "task": "Store improvements a–c delivered; waiting on Dawson's approvals",
+   "task": "Waiting on Dawson: Shopify direction + publishing the 38 Etsy drafts",
    "last_active": "2026-10-14T20:34:39Z",
    "lines": [
     "L0",
@@ -52,8 +52,8 @@
    "name": "Lister",
    "emoji": "🐶",
    "role": "Listings & Pinterest",
-   "state": "working",
-   "task": "Gardening listing drafts (local only)",
+   "state": "idle",
+   "task": "Paused with the stores (gardening drafts saved locally)",
    "last_active": "2026-10-15T15:32:42Z",
    "lines": [
     "L0",
@@ -148,6 +148,42 @@
    "state": "idle",
    "task": "Hired · waiting for launch week",
    "last_active": "2026-10-14T21:20:00Z"
+  },
+  {
+   "id": "lolki",
+   "name": "Lolki",
+   "emoji": "🦦",
+   "role": "Senior developer & game lead · Stormhook (Roblox)",
+   "lines": [
+    "Stormhook"
+   ],
+   "state": "working",
+   "task": "Reel bar + shop close fix · Open Cloud smoke run (96 tests passing)",
+   "last_active": "2026-10-16T06:37:23Z"
+  },
+  {
+   "id": "reef",
+   "name": "Reef",
+   "emoji": "🐙",
+   "role": "Art, audio & assets · Stormhook",
+   "lines": [
+    "Stormhook"
+   ],
+   "state": "idle",
+   "task": "On hold until Dawson's playtest (577-fish roster concepts done)",
+   "last_active": "2026-10-16T06:05:29Z"
+  },
+  {
+   "id": "tide",
+   "name": "Tide",
+   "emoji": "🦦",
+   "role": "Game balance, playtest QA & live-ops · Stormhook",
+   "lines": [
+    "Stormhook"
+   ],
+   "state": "idle",
+   "task": "GDD v1.8 review delivered; next up: playtest QA",
+   "last_active": "2026-10-16T06:21:18Z"
   }
  ],
  "products": [
@@ -615,6 +651,18 @@
   }
  ],
  "activity": [
+  {
+   "time": "2026-10-16T06:38:57Z",
+   "bot": "Oki",
+   "message": "Game Studio Dome opened off the command deck: Lolki, Reef and Tide moved in (Stormhook)",
+   "type": "build"
+  },
+  {
+   "time": "2026-10-16T06:38:57Z",
+   "bot": "Oki",
+   "message": "Waiting list refreshed: store improvements a–c and plan v2 asks closed; now waiting on the Shopify direction + 38 Etsy drafts",
+   "type": "review"
+  },
   {
    "time": "2026-10-15T20:25:58Z",
    "bot": "Scout",
@@ -1170,18 +1218,6 @@
    "bot": "Lister",
    "message": "started: Fixing Chicken Lady mug and Egg Collector tee copy",
    "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:20:28Z",
-   "bot": "Lister",
-   "message": "Mug republish done; batch held for QA",
-   "type": "build"
-  },
-  {
-   "time": "2026-10-15T00:20:27Z",
-   "bot": "Lister",
-   "message": "Republished 4 chicken mugs with new wrap mockups via Printify (titles, tags, prices untouched). Chicken batch held: no Sentry QA on file; printables held for manual upload",
-   "type": "build"
   }
  ],
  "version": 2,
@@ -1190,7 +1226,7 @@
    "id": "L0",
    "name": "Etsy print-on-demand",
    "building": "barn",
-   "state": "live"
+   "state": "paused"
   },
   {
    "id": "L1",
@@ -1228,7 +1264,7 @@
    "id": "L0-a",
    "line": "L0",
    "name": "Chicken-humor tees & mugs",
-   "state": "live",
+   "state": "paused",
    "bots": [
     "scout",
     "pixel",
@@ -1236,8 +1272,9 @@
     "ledger"
    ],
    "kpis": {
-    "listings_live": 6,
-    "designs_ready": 16
+    "listings_live": 2,
+    "designs_ready": 41,
+    "etsy_drafts": 38
    },
    "gate": {
     "next": "—",
@@ -1258,7 +1295,7 @@
     "sentry"
    ],
    "kpis": {
-    "products_live": 0,
+    "products_live": 1,
     "views_wk": 0,
     "email_signups": 0
    },
@@ -1605,14 +1642,934 @@
  ],
  "waiting_on_dawson": [
   {
-   "id": "store-abc",
-   "label": "Approve store improvements a–c",
-   "since": "2026-10-14T20:34:39Z"
+   "id": "shopify-direction",
+   "label": "Decide the Shopify direction (plan v1 + niche scan ready)",
+   "since": "2026-10-16T01:20:29Z"
   },
   {
-   "id": "plan-v2",
-   "label": "Green-light expansion plan v2 (week 1: Payhip + Adobe signup)",
-   "since": "2026-10-14T20:00:00Z"
+   "id": "etsy-38-drafts",
+   "label": "Publish the 38 Etsy drafts (stores paused since Oct 15)",
+   "since": "2026-10-15T20:25:00Z"
+  }
+ ],
+ "places": [
+  {
+   "id": "barn",
+   "name": "Etsy Studio",
+   "state": "paused",
+   "note": "Stores paused Oct 15 pending the Shopify decision · 38 drafts ready to publish",
+   "counts": {
+    "designs": 41,
+    "product_files": 67,
+    "live": 2,
+    "etsy_drafts": 38,
+    "awaiting_approval": 10,
+    "qa_batches_passed": 3
+   },
+   "bars": [
+    {
+     "label": "chicken",
+     "n": 15
+    },
+    {
+     "label": "birding",
+     "n": 15
+    },
+    {
+     "label": "gardening",
+     "n": 11
+    }
+   ],
+   "items": [
+    "First Tomato Club",
+    "Frost Warning Club",
+    "Garden Math",
+    "Bolting Again",
+    "Zone Denial",
+    "Too Many Tomatoes",
+    "Harvest Hoarder",
+    "Raised Bed Rebel",
+    "Seed Starting Season",
+    "Tomato Tender",
+    "Dirt Under My Nails",
+    "Retired And Birding",
+    "Chickadee Fan Club",
+    "Backyard Birder"
+   ],
+   "thumbs": [
+    {
+     "src": "thumbs/etsy-01.jpg",
+     "title": "Chicken Math",
+     "tag": "chicken"
+    },
+    {
+     "src": "thumbs/etsy-04.jpg",
+     "title": "My Chickens Think I'm Hilarious",
+     "tag": "chicken"
+    },
+    {
+     "src": "thumbs/etsy-07.jpg",
+     "title": "Cluck Around And Find Out",
+     "tag": "chicken"
+    },
+    {
+     "src": "thumbs/etsy-10.jpg",
+     "title": "Coop Life",
+     "tag": "chicken"
+    },
+    {
+     "src": "thumbs/etsy-13.jpg",
+     "title": "Just A Girl Who Loves Chickens",
+     "tag": "chicken"
+    },
+    {
+     "src": "thumbs/etsy-16.jpg",
+     "title": "Warbler Watcher",
+     "tag": "birding"
+    },
+    {
+     "src": "thumbs/etsy-19.jpg",
+     "title": "Feeder Gossip",
+     "tag": "birding"
+    },
+    {
+     "src": "thumbs/etsy-22.jpg",
+     "title": "Birding Is My Therapy",
+     "tag": "birding"
+    },
+    {
+     "src": "thumbs/etsy-25.jpg",
+     "title": "Warbler Season",
+     "tag": "birding"
+    },
+    {
+     "src": "thumbs/etsy-28.jpg",
+     "title": "Backyard Birder",
+     "tag": "birding"
+    },
+    {
+     "src": "thumbs/etsy-31.jpg",
+     "title": "Dirt Under My Nails",
+     "tag": "gardening"
+    },
+    {
+     "src": "thumbs/etsy-33.jpg",
+     "title": "Seed Starting Season",
+     "tag": "gardening"
+    },
+    {
+     "src": "thumbs/etsy-35.jpg",
+     "title": "Harvest Hoarder",
+     "tag": "gardening"
+    },
+    {
+     "src": "thumbs/etsy-37.jpg",
+     "title": "Zone Denial",
+     "tag": "gardening"
+    },
+    {
+     "src": "thumbs/etsy-39.jpg",
+     "title": "Garden Math",
+     "tag": "gardening"
+    }
+   ],
+   "updated": 1792073469
+  },
+  {
+   "id": "library",
+   "name": "Payhip Archive",
+   "state": "live",
+   "note": "1 of 3 products live · new store work paused with the stores",
+   "counts": {
+    "products": 3,
+    "products_live": 1,
+    "covers": 3
+   },
+   "items": [
+    "Budget Planner 2026",
+    "Debt Snowball Planner",
+    "Invoice + Expense + Mileage Kit"
+   ],
+   "thumbs": [
+    {
+     "src": "thumbs/payhip-budget-planner.jpg",
+     "title": "Budget Planner 2026",
+     "live": true
+    },
+    {
+     "src": "thumbs/payhip-debt-snowball-planner.jpg",
+     "title": "Debt Snowball Planner"
+    },
+    {
+     "src": "thumbs/payhip-invoice-expense-mileage-kit.jpg",
+     "title": "Invoice + Expense + Mileage Kit"
+    }
+   ],
+   "updated": 1792029483
+  },
+  {
+   "id": "newsroom",
+   "name": "Content Broadcast",
+   "state": "draft",
+   "note": "Draft posts written, site not launched yet",
+   "counts": {
+    "draft_posts": 3,
+    "topic_plans": 1
+   },
+   "items": [
+    "What Do Backyard Eggs Really Cost Per Dozen? (Honest Math + Calculator)",
+    "How Much Do Chickens Eat? Daily Feed, Bag Life & Monthly Cost Calculator",
+    "How Big Should a Chicken Coop Be? Square Feet Per Chicken + Coop Size Calculator"
+   ],
+   "updated": 1792029483
+  },
+  {
+   "id": "market",
+   "name": "Fiverr Lounge",
+   "state": "waiting",
+   "note": "Launch plan v1 written · gigs drafted, not published (waiting)",
+   "counts": {
+    "gig_drafts": 2,
+    "launch_plans": 1,
+    "gigs_live": 0
+   },
+   "items": [
+    "I will build a custom Google Sheets dashboard, tracker, or automated report",
+    "I will write a python script to clean, merge, or automate your CSV or excel data"
+   ],
+   "tags": [
+    "google sheets, dashboard, spreadsheet, excel tracker, data visualization",
+    "python script, csv, data cleaning, automation, excel"
+   ],
+   "updated": 1792029483
+  },
+  {
+   "id": "workshop",
+   "name": "Apify/Chrome Lab",
+   "state": "draft",
+   "note": "4 actors built and schema-validated · not published yet",
+   "counts": {
+    "actors_built": 4,
+    "actors_live": 0
+   },
+   "items": [
+    "Bulk Image Resizer & Converter",
+    "CSV Cleaner, Deduplicator & Validator",
+    "PDF Invoice to JSON",
+    "Site Auditor: Sitemap, Broken Links & Meta"
+   ],
+   "updated": 1792029484
+  },
+  {
+   "id": "greenhouse",
+   "name": "Adobe Stock Garden",
+   "state": "hold",
+   "note": "On hold (no uploads until the store direction is settled)",
+   "counts": {
+    "batches_prepped": 1,
+    "images_live": 0
+   },
+   "items": [
+    "Batch 1 prompts + metadata prepared",
+    "Uploads on hold"
+   ],
+   "updated": 1792029483
+  },
+  {
+   "id": "research",
+   "name": "Research · Shopify plan",
+   "state": "waiting",
+   "note": "Shopify plan v1 + niche scan v1 ready · waiting on Dawson's direction decision",
+   "counts": {
+    "plans": 1,
+    "niches_scored": 18
+   },
+   "items": [
+    "On its own, Shopify doesn't fix the core problem. It actually makes it harder.",
+    "Recommended model: hybrid, with Shopify as the owned hub.",
+    "Time the Shopify launch to the season, not the calendar.",
+    "Build traffic before launch.",
+    "Catalog: one homestead brand, not two."
+   ],
+   "bars": [
+    {
+     "label": "Money & small-business spreadsheet kits",
+     "n": 33
+    },
+    {
+     "label": "Homestead / backyard",
+     "n": 32
+    },
+    {
+     "label": "Book lovers / \"bookish\"",
+     "n": 31
+    }
+   ],
+   "updated": 1792113629
+  },
+  {
+   "id": "game",
+   "name": "Game Studio Dome",
+   "state": "active",
+   "note": "Stormhook: co-op crew ocean adventure & fishing for Roblox · GDD v1.9 · M1 Playable Core built, waiting on Dawson's playtest",
+   "counts": {
+    "biomes": 6,
+    "species_planned": 577,
+    "legacy_fish": 90,
+    "bosses": 8,
+    "boats": 6,
+    "milestones": 7,
+    "tests_passing": 96,
+    "reviews": 9
+   },
+   "groups": {
+    "islands": [
+     {
+      "name": "Sunreach Harbor",
+      "look": "Warm white stone, lighthouse, bunting",
+      "kind": "hub",
+      "x": 0,
+      "z": 0
+     },
+     {
+      "name": "Driftwood Shallows",
+      "look": "Turquoise, sandbars, palm islets",
+      "kind": "biome",
+      "x": 0,
+      "z": 700,
+      "water": "#3FD0C9"
+     },
+     {
+      "name": "Coralglow Reef",
+      "look": "Pink/teal coral spires, clear water",
+      "kind": "biome",
+      "x": 1300,
+      "z": 1500,
+      "water": "#2AB3D6"
+     },
+     {
+      "name": "Whale Road",
+      "look": "Deep blue swells, spouts on the horizon",
+      "kind": "sea",
+      "x": 0,
+      "z": -1100
+     },
+     {
+      "name": "Fogbound Graveyard",
+      "look": "Permanent fog, wreck masts, green lanterns",
+      "kind": "biome",
+      "x": -1500,
+      "z": -100,
+      "water": "#3E5B57"
+     },
+     {
+      "name": "Frostbite Shelf",
+      "look": "Icebergs, aurora at night",
+      "kind": "biome",
+      "x": -1700,
+      "z": -1900,
+      "water": "#7FB6D9"
+     },
+     {
+      "name": "Cinder Isles",
+      "look": "Black sand, lava glow, ash sky",
+      "kind": "biome",
+      "x": -1500,
+      "z": 1900,
+      "water": "#2B2F3A"
+     },
+     {
+      "name": "The Maw",
+      "look": "Near-black water, bioluminescence, trench rim",
+      "kind": "biome",
+      "x": 1800,
+      "z": -1900,
+      "water": "#0A1A2E"
+     }
+    ],
+    "boats": [
+     {
+      "tier": "T1",
+      "name": "Dinghy",
+      "seats": 2
+     },
+     {
+      "tier": "T2",
+      "name": "Skiff",
+      "seats": 3
+     },
+     {
+      "tier": "T3",
+      "name": "Trawler",
+      "seats": 4
+     },
+     {
+      "tier": "T4",
+      "name": "Cutter",
+      "seats": 4
+     },
+     {
+      "tier": "T5",
+      "name": "Ironclad",
+      "seats": 6
+     },
+     {
+      "tier": "T6",
+      "name": "Leviathan-class",
+      "seats": 6
+     }
+    ],
+    "fish": [
+     {
+      "name": "Sand Dab",
+      "biome": "Driftwood",
+      "tier": "Common"
+     },
+     {
+      "name": "Blue Minnow → Bay Anchovy",
+      "biome": "Driftwood",
+      "tier": "Common"
+     },
+     {
+      "name": "Pier Perch → Seafoam Sprat ✧",
+      "biome": "Driftwood",
+      "tier": "Common"
+     },
+     {
+      "name": "Bubble Goby → Sandfleck Skipper ✧",
+      "biome": "Driftwood",
+      "tier": "Common"
+     },
+     {
+      "name": "Striped Bass",
+      "biome": "Driftwood",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Sunny Mackerel → Sunsail Skimmer ✧",
+      "biome": "Driftwood",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Puffling → Burr Puff ✧",
+      "biome": "Driftwood",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Sunscale Snapper → Mutton Snapper",
+      "biome": "Driftwood",
+      "tier": "Rare"
+     },
+     {
+      "name": "Glass Shrimp → Glasswing Shrimp ✧",
+      "biome": "Driftwood",
+      "tier": "Rare"
+     },
+     {
+      "name": "Kite Ray → Southern Stingray",
+      "biome": "Driftwood",
+      "tier": "Rare"
+     },
+     {
+      "name": "Lagoon Sailfish → Lagoon Sailwing ✧",
+      "biome": "Driftwood",
+      "tier": "Epic"
+     },
+     {
+      "name": "Mirror Carp → Mirrorscale Drake ✧",
+      "biome": "Driftwood",
+      "tier": "Epic"
+     },
+     {
+      "name": "Golden Dorado → Mahi-mahi",
+      "biome": "Driftwood",
+      "tier": "Legendary"
+     },
+     {
+      "name": "Sunken Crown Turtle → Sunscale Sea Serpent ✧",
+      "biome": "Driftwood",
+      "tier": "Mythic"
+     },
+     {
+      "name": "The Old Bobber → Old Silverking",
+      "biome": "Driftwood",
+      "tier": "Secret"
+     },
+     {
+      "name": "Clownfin → Clown Anemonefish",
+      "biome": "Coralglow",
+      "tier": "Common"
+     },
+     {
+      "name": "Reef Tang → Yellow Tang",
+      "biome": "Coralglow",
+      "tier": "Common"
+     },
+     {
+      "name": "Butterfly Fish → Neon Flitterfin ✧",
+      "biome": "Coralglow",
+      "tier": "Common"
+     },
+     {
+      "name": "Coral Crab → Polypback Crab ✧",
+      "biome": "Coralglow",
+      "tier": "Common"
+     },
+     {
+      "name": "Parrotfish → Bullethead Parrotfish",
+      "biome": "Coralglow",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Lionfin ✧",
+      "biome": "Coralglow",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Moray Pup → Snowflake Moray",
+      "biome": "Coralglow",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Neon Wrasse → Lumen Sailfin ✧",
+      "biome": "Coralglow",
+      "tier": "Rare"
+     },
+     {
+      "name": "Spotted Eagle Ray",
+      "biome": "Coralglow",
+      "tier": "Rare"
+     },
+     {
+      "name": "Seahorse King → Bloomfrill Seadragon ✧",
+      "biome": "Coralglow",
+      "tier": "Rare"
+     },
+     {
+      "name": "Hammerhead → Winghead Shark",
+      "biome": "Coralglow",
+      "tier": "Epic"
+     },
+     {
+      "name": "Blue Tang Queen → Azure Tang Empress ✧",
+      "biome": "Coralglow",
+      "tier": "Epic"
+     },
+     {
+      "name": "Coralback Turtle → Reefshell Colossus ✧",
+      "biome": "Coralglow",
+      "tier": "Legendary"
+     },
+     {
+      "name": "Manta Monarch ✧",
+      "biome": "Coralglow",
+      "tier": "Mythic"
+     },
+     {
+      "name": "Reefheart",
+      "biome": "Coralglow",
+      "tier": "Secret"
+     },
+     {
+      "name": "Fog Herring → Atlantic Herring",
+      "biome": "Fogbound",
+      "tier": "Common"
+     },
+     {
+      "name": "Barnacle Cod → Atlantic Cod",
+      "biome": "Fogbound",
+      "tier": "Common"
+     },
+     {
+      "name": "Grey Eel → Fogwhisker Wyrmling ✧",
+      "biome": "Fogbound",
+      "tier": "Common"
+     },
+     {
+      "name": "Rust Crab → Lampback Crab ✧",
+      "biome": "Fogbound",
+      "tier": "Common"
+     },
+     {
+      "name": "Lantern Squid ✧",
+      "biome": "Fogbound",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Bonefin → Tatterfin Wraith ✧",
+      "biome": "Fogbound",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Wreck Grouper → Wreckfish",
+      "biome": "Fogbound",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Ghost Pike → Mistgill Lancer ✧",
+      "biome": "Fogbound",
+      "tier": "Rare"
+     },
+     {
+      "name": "Anchor Ray → Atlantic Torpedo",
+      "biome": "Fogbound",
+      "tier": "Rare"
+     },
+     {
+      "name": "Cannonball Puffer → Lumpfish",
+      "biome": "Fogbound",
+      "tier": "Rare"
+     },
+     {
+      "name": "Phantom Marlin ✧",
+      "biome": "Fogbound",
+      "tier": "Epic"
+     },
+     {
+      "name": "Captain's Coelacanth → Wreckwarden ✧",
+      "biome": "Fogbound",
+      "tier": "Epic"
+     },
+     {
+      "name": "Drowned Bell Carp → Atlantic Halibut",
+      "biome": "Fogbound",
+      "tier": "Legendary"
+     },
+     {
+      "name": "Will-o'-Wisp Angler ✧",
+      "biome": "Fogbound",
+      "tier": "Mythic"
+     },
+     {
+      "name": "Ferryman's Koi → The Pale Ferryman",
+      "biome": "Fogbound",
+      "tier": "Secret"
+     },
+     {
+      "name": "Ice Cod → Arctic Cod",
+      "biome": "Frostbite",
+      "tier": "Common"
+     },
+     {
+      "name": "Snow Smelt → Snowpuff Fry ✧",
+      "biome": "Frostbite",
+      "tier": "Common"
+     },
+     {
+      "name": "Arctic Char",
+      "biome": "Frostbite",
+      "tier": "Common"
+     },
+     {
+      "name": "Frost Krill → Icicle Krillet ✧",
+      "biome": "Frostbite",
+      "tier": "Common"
+     },
+     {
+      "name": "Narwhal Pup → Bald Notothen",
+      "biome": "Frostbite",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Glacier Trout → Dolly Varden",
+      "biome": "Frostbite",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Penguin Fish → Snow Crab",
+      "biome": "Frostbite",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Aurora Salmon → Aurora Sailfin ✧",
+      "biome": "Frostbite",
+      "tier": "Rare"
+     },
+     {
+      "name": "Crystal Crab → Iceclaw Crab ✧",
+      "biome": "Frostbite",
+      "tier": "Rare"
+     },
+     {
+      "name": "Polar Ray → Arctic Skate",
+      "biome": "Frostbite",
+      "tier": "Rare"
+     },
+     {
+      "name": "Ice Sturgeon → Coho Salmon",
+      "biome": "Frostbite",
+      "tier": "Epic"
+     },
+     {
+      "name": "Beluga Calf → Salmon Shark",
+      "biome": "Frostbite",
+      "tier": "Epic"
+     },
+     {
+      "name": "Narwhal King → Icespear King ✧",
+      "biome": "Frostbite",
+      "tier": "Legendary"
+     },
+     {
+      "name": "Aurora Leviathan Eel → Aurora Ribbon Eel ✧",
+      "biome": "Frostbite",
+      "tier": "Mythic"
+     },
+     {
+      "name": "Frozen Time Fish → Winter's Elder",
+      "biome": "Frostbite",
+      "tier": "Secret"
+     },
+     {
+      "name": "Ember Goby → Emberfin Imp ✧",
+      "biome": "Cinder",
+      "tier": "Common"
+     },
+     {
+      "name": "Ash Sardine → Bigeye Scad",
+      "biome": "Cinder",
+      "tier": "Common"
+     },
+     {
+      "name": "Basalt Crab → Sally Lightfoot Crab",
+      "biome": "Cinder",
+      "tier": "Common"
+     },
+     {
+      "name": "Smoke Eel → Smokecoil Wyrmling ✧",
+      "biome": "Cinder",
+      "tier": "Common"
+     },
+     {
+      "name": "Magma Puffer → Geyser Puff ✧",
+      "biome": "Cinder",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Obsidian Bass → Obsidian Knight ✧",
+      "biome": "Cinder",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Firefin → Flame Hawkfish",
+      "biome": "Cinder",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Lava Lobster → Hawaiian Spiny Lobster",
+      "biome": "Cinder",
+      "tier": "Rare"
+     },
+     {
+      "name": "Cinder Ray → Diamond Stingray",
+      "biome": "Cinder",
+      "tier": "Rare"
+     },
+     {
+      "name": "Phoenix Tetra ✧",
+      "biome": "Cinder",
+      "tier": "Rare"
+     },
+     {
+      "name": "Volcano Snapper → Crater Drake ✧",
+      "biome": "Cinder",
+      "tier": "Epic"
+     },
+     {
+      "name": "Molten Marlin → Flamesail Swordwing ✧",
+      "biome": "Cinder",
+      "tier": "Epic"
+     },
+     {
+      "name": "Salamander Shark ✧",
+      "biome": "Cinder",
+      "tier": "Legendary"
+     },
+     {
+      "name": "Ember Dragonfish ✧",
+      "biome": "Cinder",
+      "tier": "Mythic"
+     },
+     {
+      "name": "Heart of the Mountain",
+      "biome": "Cinder",
+      "tier": "Secret"
+     },
+     {
+      "name": "Gulper Eel",
+      "biome": "The",
+      "tier": "Common"
+     },
+     {
+      "name": "Lantern Shrimp → Glowhorn Shrimp ✧",
+      "biome": "The",
+      "tier": "Common"
+     },
+     {
+      "name": "Vampire Squidlet → Cloakfin Squidlet ✧",
+      "biome": "The",
+      "tier": "Common"
+     },
+     {
+      "name": "Deep Hatchet → Silver Hatchetfish",
+      "biome": "The",
+      "tier": "Common"
+     },
+     {
+      "name": "Barreleye",
+      "biome": "The",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Fangtooth",
+      "biome": "The",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Glass Octopus",
+      "biome": "The",
+      "tier": "Uncommon"
+     },
+     {
+      "name": "Abyss Angler → Lanternjaw Angler ✧",
+      "biome": "The",
+      "tier": "Rare"
+     },
+     {
+      "name": "Giant Isopod",
+      "biome": "The",
+      "tier": "Rare"
+     },
+     {
+      "name": "Coffinfish → Gloomshell Nautiloid ✧",
+      "biome": "The",
+      "tier": "Rare"
+     },
+     {
+      "name": "Frilled Shark",
+      "biome": "The",
+      "tier": "Epic"
+     },
+     {
+      "name": "Colossal Squid Juvenile → Humboldt Squid",
+      "biome": "The",
+      "tier": "Epic"
+     },
+     {
+      "name": "Abyssal Siphonophore → Starchain Medusa ✧",
+      "biome": "The",
+      "tier": "Legendary"
+     },
+     {
+      "name": "Trench Wyrm ✧",
+      "biome": "The",
+      "tier": "Mythic"
+     },
+     {
+      "name": "Eye of the Deep",
+      "biome": "The",
+      "tier": "Secret"
+     }
+    ],
+    "bosses": [
+     {
+      "name": "Moby Dick",
+      "where": "Whale Road"
+     },
+     {
+      "name": "Hollow Galleon",
+      "where": "Fogbound"
+     },
+     {
+      "name": "Megalodon",
+      "where": "Coralglow Drop-off"
+     },
+     {
+      "name": "Frostmaw",
+      "where": "Frostbite \"Shatter Ring\""
+     },
+     {
+      "name": "Cindershell",
+      "where": "Cinder Caldera"
+     },
+     {
+      "name": "The Kraken",
+      "where": "The Maw"
+     },
+     {
+      "name": "King Clacker",
+      "where": "Coralglow Reef"
+     },
+     {
+      "name": "Lantern Matriarch",
+      "where": "Fogbound night/Ghost Hour or Maw night"
+     }
+    ],
+    "storms": [
+     "Squall",
+     "Gale",
+     "Blizzard",
+     "Ash storm",
+     "Tempest"
+    ],
+    "milestones": [
+     {
+      "id": "M1",
+      "name": "Playable Core",
+      "when": "Week 1 (~7 days)"
+     },
+     {
+      "id": "M2",
+      "name": "Crew & Danger",
+      "when": "Week 2"
+     },
+     {
+      "id": "M3",
+      "name": "Bosses & Store → public 16+ launch",
+      "when": "Weeks 3–4"
+     },
+     {
+      "id": "M4",
+      "name": "Deep North",
+      "when": "Weeks 5–6"
+     },
+     {
+      "id": "M5",
+      "name": "Fire & Abyss (v1.0)",
+      "when": "Weeks 7–8"
+     },
+     {
+      "id": "M6",
+      "name": "The Depths",
+      "when": "Weeks 9–10"
+     },
+     {
+      "id": "M7",
+      "name": "Submarine",
+      "when": "Weeks 11–12"
+     }
+    ],
+    "build": [
+     "Cloud smoke (place v14): 96 passed, 0 failed",
+     "Build: Shop close fix",
+     "Build: Reel bar",
+     "Build: Playtest UI pass",
+     "Build: v1.8.1 (Tide GDD v1.8 review)",
+     "Build: v1.8"
+    ],
+    "playtest": [
+     "Tester rundown ready (9 things to check)",
+     "Your first catch",
+     "Your first Rare",
+     "Buying the Sturdy Rod",
+     "Driving the Dinghy",
+     "Controller",
+     "Phone or tablet",
+     "9 balance/QA reviews by Tide",
+     "Reef's art is on hold until Dawson's playtest"
+    ]
+   },
+   "updated": 1792133534
   }
  ]
 }
