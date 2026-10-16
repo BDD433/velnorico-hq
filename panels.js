@@ -4,8 +4,11 @@ var HQ=window.HQ||{};window.HQ=HQ;
 var DAYS=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],STAGES=["idea","building","qa","awaiting","live","paused"],
  SN={idea:"IDEA",building:"BUILDING",qa:"QA (SENTRY)",awaiting:"AWAITING DAWSON",live:"LIVE",paused:"PAUSED"},
  PSTAGE={Idea:"idea",Design:"building",Listing:"qa",Pin:"awaiting",Live:"live"},F={l:"",i:"",b:"",t:""},D=null;
-HQ.BNAME={barn:"Etsy Studio",library:"Payhip Archive",workshop:"Apify/Chrome Lab",greenhouse:"Adobe Stock Garden",newsroom:"Content Broadcast",market:"Fiverr Lounge"};
-HQ.HOME={oki:"plaza",scout:"barn",pixel:"barn",lister:"barn",ledger:"barn",forge:"workshop",sentry:"plaza",lumen:"greenhouse",quill:"newsroom",clerk:"market"};
+HQ.BNAME={barn:"Etsy Studio",library:"Payhip Archive",workshop:"Apify/Chrome Lab",greenhouse:"Adobe Stock Garden",newsroom:"Content Broadcast",market:"Fiverr Lounge",game:"Game Studio Dome",research:"Research · Shopify plan",hall:"Glass Hallway"};
+HQ.HOME={oki:"plaza",scout:"barn",pixel:"barn",lister:"barn",ledger:"barn",forge:"workshop",sentry:"plaza",lumen:"greenhouse",quill:"newsroom",clerk:"market",lolki:"game",reef:"game",tide:"game"};
+HQ.SNAME={active:"ACTIVE",live:"LIVE",paused:"PAUSED",hold:"ON HOLD",waiting:"WAITING",draft:"DRAFTS",planned:"PLANNED"};
+HQ.TIERC={Common:"#b8c2cc",Uncommon:"#7ee08a",Rare:"#5fb6ff",Epic:"#b18cff",Legendary:"#ffc24a",Mythic:"#ff6fae",Secret:"#e8f3ff"};
+HQ.place=function(id){var r=null;((D&&D.places)||[]).forEach(function(p){if(p.id===id)r=p;});return r;};
 function el(i){return document.getElementById(i);}HQ.el=el;
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}HQ.esc=esc;
 function et(iso){var d=new Date(iso);if(!iso||isNaN(d))return"—";try{return d.toLocaleString("en-US",{timeZone:"America/New_York",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET";}catch(e){return d.toLocaleString();}}
@@ -34,8 +37,30 @@ function gateMeter(i){var g=i.gate||{},m=(g.met||[]).length,t=m+(g.pending||[]).
 function instPanel(i){var m=bm(),k=i.kpis||{},t=i.targets||{},kh="";Object.keys(k).forEach(function(x){kh+=kpiBox(x,k[x],t[x]);});
  return'<div class="sub"><h3>'+esc(i.id)+' · '+esc(i.name)+'<span class="pill '+esc(i.state)+'">'+esc(i.state).toUpperCase()+'</span>'+(i.week?'<span class="pill">launch wk '+esc(i.week)+'</span>':'')+'</h3>'+
   '<div>Crew: '+(i.bots||[]).map(function(b){b=m[b];return b?'<a href="#" data-bot="'+esc(b.id)+'">'+esc(b.name)+'</a>'+(b.state==="working"?" 🟢":""):"";}).join(", ")+'</div><div>'+kh+'</div>'+gateMeter(i)+board(i)+'</div>';}
-HQ.buildingHTML=function(bld){if(bld==="plaza")return"<p>The town square: Oki (chief) and Sentry (QA gate) work here. Every parcel passes through Sentry.</p>";
- var line=HQ.lineFor(bld),is=line?HQ.insts(line.id):[],h='<p class="muted">'+(line?esc(line.id+" · "+line.name+" · "+line.state):"")+'</p>';
+function bars(b){if(!b||!b.length)return"";var mx=1;b.forEach(function(x){mx=Math.max(mx,x.n);});return'<div class="bars">'+b.map(function(x){return'<div><span>'+esc(x.label)+'</span> <b>'+esc(x.n)+'</b><span class="meter"><i style="width:'+Math.round(x.n/mx*100)+'%"></i></span></div>';}).join("")+'</div>';}
+function placeHTML(p,noItems){if(!p)return"";var c=p.counts||{},h='<div class="sub place"><h3 style="margin-top:0">What\'s here <span class="pill st-'+esc(p.state)+'">'+(HQ.SNAME[p.state]||esc(p.state))+'</span></h3><p>'+esc(p.note)+'</p><div>';
+ Object.keys(c).forEach(function(k){h+=kpiBox(k,c[k]);});h+='</div>'+bars(p.bars);
+ if(p.thumbs&&p.thumbs.length)h+='<div class="thumbs">'+p.thumbs.map(function(t){return'<figure'+(t.live?' class="on"':'')+'><img loading="lazy" src="'+esc(t.src)+'" alt="'+esc(t.title)+'" title="'+esc(t.title)+'"><figcaption>'+esc(t.title)+(t.live?' · LIVE':'')+'</figcaption></figure>';}).join("")+'</div>';
+ if(!noItems&&p.items&&p.items.length)h+='<ul class="mini">'+p.items.map(function(x){return"<li>"+esc(x)+"</li>";}).join("")+'</ul>';
+ if(p.tags&&p.tags.length)h+='<p class="muted">Tags: '+p.tags.map(esc).join(" · ")+'</p>';return h+'</div>';}
+HQ.placeHTML=placeHTML;
+function crewOf(home){var m=bm();return Object.keys(HQ.HOME).filter(function(k){return HQ.HOME[k]===home&&m[k];}).map(function(k){var b=m[k];return'<a href="#" data-bot="'+esc(b.id)+'">'+esc(b.name)+'</a>'+(b.state==="working"?" 🟢":"");}).join(", ");}
+function gameHTML(p){if(!p)return"<p>Game data not scanned yet (<code>hq.py scan</code>).</p>";var g=p.groups||{},h='<p>Crew: '+crewOf("game")+'</p>'+placeHTML(p,true);
+ if(g.build&&g.build.length)h+='<h4>Build board</h4><ul class="mini">'+g.build.map(function(x){return"<li>"+esc(x)+"</li>";}).join("")+'</ul>';
+ if(g.playtest&&g.playtest.length)h+='<h4>Playtest board</h4><ul class="mini">'+g.playtest.map(function(x,i){return"<li>"+(i?"⬜ ":"")+esc(x)+"</li>";}).join("")+'</ul>';
+ if(g.milestones)h+='<h4>Milestones</h4><div class="chips">'+g.milestones.map(function(m,i){return'<span class="chip'+(i===0?" on":"")+'">'+esc(m.id)+' '+esc(m.name)+' <small>'+esc(m.when)+'</small></span>';}).join("")+'</div>';
+ if(g.islands)h+='<h4>Islands &amp; seas (holo map)</h4><div class="chips">'+g.islands.map(function(i){return'<span class="chip"><i class="sw" style="background:'+esc(i.water||"#cfd6e0")+'"></i>'+esc(i.name)+' <small>'+esc(i.look)+'</small></span>';}).join("")+'</div>';
+ if(g.boats)h+='<h4>Boat ladder</h4><div class="chips">'+g.boats.map(function(b){return'<span class="chip">'+esc(b.tier)+' '+esc(b.name)+' <small>'+esc(b.seats)+' seats</small></span>';}).join("")+'</div>';
+ if(g.storms)h+='<h4>Storm sim</h4><div class="chips">'+g.storms.map(function(x){return'<span class="chip">⛈ '+esc(x)+'</span>';}).join("")+'</div>';
+ if(g.bosses)h+='<h4>Bosses</h4><div class="chips">'+g.bosses.map(function(b){return'<span class="chip">'+esc(b.name)+' <small>'+esc(b.where)+'</small></span>';}).join("")+'</div>';
+ if(g.fish)h+='<h4>Fish collection wall ('+g.fish.length+' legacy species)</h4><div class="chips">'+g.fish.map(function(f){return'<span class="chip" style="border-color:'+(HQ.TIERC[f.tier]||"#888")+'55"><i class="sw" style="background:'+(HQ.TIERC[f.tier]||"#888")+'"></i>'+esc(f.name)+'</span>';}).join("")+'</div>';
+ return h;}
+HQ.buildingHTML=function(bld){
+ if(bld==="plaza"){var r=HQ.place("research");return"<p>The command deck: Oki (chief) and Sentry (QA gate) work at the holo-table. Every parcel passes through Sentry.</p>"+(r?'<h4><a href="#" data-bld="research">Research board · Shopify plan</a></h4>'+placeHTML(r):"");}
+ if(bld==="game")return gameHTML(HQ.place("game"));
+ if(bld==="research")return placeHTML(HQ.place("research"));
+ if(bld==="hall"){var gp=HQ.place("game");return"<p>A walkable glass hallway from the command deck to the Game Studio Dome. Bots carry handoffs through it.</p><p>Dome crew: "+crewOf("game")+'</p>'+(gp?'<p class="muted">'+esc(gp.note)+'</p>':"")+'<p><a href="#" data-bld="game">Enter the Game Studio Dome →</a></p>';}
+ var line=HQ.lineFor(bld),is=line?HQ.insts(line.id):[],h=placeHTML(HQ.place(bld))+'<p class="muted">'+(line?esc(line.id+" · "+line.name+" · "+line.state):"")+'</p>';
  if(!is.length)h+="<p>No instances yet (add one with <code>hq.py instance add</code>).</p>";is.forEach(function(i){h+=instPanel(i);});return h;};
 HQ.botHTML=function(id){var b=bm()[id];if(!b)return"";var A=(D.activity||[]).filter(function(a){return String(a.bot).toLowerCase()===b.name.toLowerCase()||String(a.to||"").toLowerCase()===b.name.toLowerCase();}).slice(0,6);
  var st=b.state==="working"?"🟢 Working":HQ.sleepy(b)?"💤 Asleep (idle >24h)":"⚪ Idle";
