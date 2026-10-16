@@ -628,9 +628,9 @@ var FOLLOW=null,fv=new T.Vector3();HQ.showBot=function(id){var o=BOT[id];if(!o)r
   FOCUS.c.copy(DC.clone().add(new T.Vector3().subVectors(FOCUS.c,DC).setY(0).clampLength(0,DR-1.2)).setY(FOCUS.c.y));return;}
  focusOn(o.pos.clone().setY(1.6),mobile?21:16);};
 HQ.showBld=function(k){if(!BLD[k])return;FOLLOW=null;openInfo(k==="plaza"?"Command Deck":HQ.BNAME[k],HQ.buildingHTML(k));
- if(k==="game"){ZONE="out";ctl.autoRotate=false;clearTimeout(idleT);dome.updateMatrixWorld();FOCUS={t:dome.localToWorld(mobile?new T.Vector3(.6,0,-4.5):new T.Vector3(1.6,1.3,-2.6)),c:dome.localToWorld(mobile?new T.Vector3(1.0,17,21):new T.Vector3(2.2,7.2,8.4))};return;}
+ if(k==="game"){ZONE="out";ctl.autoRotate=false;clearTimeout(idleT);dome.updateMatrixWorld();FOCUS={t:dome.localToWorld(mobile?new T.Vector3(.6,0,-4.5):new T.Vector3(1.4,1.2,-3.2)),c:dome.localToWorld(mobile?new T.Vector3(1.0,17,21):new T.Vector3(2.0,12.5,16.5))};return;}
  if(k==="hall"){ZONE="out";ctl.autoRotate=false;clearTimeout(idleT);var h0=HCUR.getPointAt(.02);FOCUS={t:HCUR.getPointAt(.62).setY(1.6),c:h0.clone().add(new T.Vector3(-CAs*5,mobile?7.5:6,-CAc*5))};return;}
- var p=BLD[k];focusOn(new T.Vector3(p[0],2,p[1]),k==="plaza"?13:k==="research"?9:12);};
+ var p=BLD[k];if(BAYS.indexOf(k)>=0){focusOn(new T.Vector3(p[0],3.2,p[1]),12);var iw=new T.Vector3(-p[0],0,-p[1]).normalize();FOCUS.c.set(p[0],0,p[1]).addScaledVector(iw,mobile?13:10.5).setY(mobile?8:7.2);return;}focusOn(new T.Vector3(p[0],2,p[1]),k==="plaza"?13:k==="research"?9:12);};
 renderer.domElement.addEventListener("pointerdown",function(e){down=[e.clientX,e.clientY];FOCUS=null;FOLLOW=null;});
 renderer.domElement.addEventListener("pointerup",function(e){if(!down||Math.abs(e.clientX-down[0])+Math.abs(e.clientY-down[1])>8)return;var u=hit(e);if(!u)return;if(u.type==="bot")HQ.showBot(u.id);else HQ.showBld(u.id);});
 var hovT=0;if(!mobile)renderer.domElement.addEventListener("pointermove",function(e){var n=Date.now();if(n-hovT<120)return;hovT=n;renderer.domElement.style.cursor=hit(e)?"pointer":"grab";});
