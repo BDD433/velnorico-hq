@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VelnoriCo HQ · Orbital Station</title>
+<title>VelnoriCo HQ · Command Deck</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:-apple-system,Helvetica,Arial,sans-serif;background:#2b1d14;color:#3b2f22}
@@ -94,52 +94,55 @@ footer{color:#8a94bf;font-size:11px;text-align:center;padding:14px}
 .textonly .scene,.textonly .ticker{display:none}
 @media (max-width:620px){.path{display:none}.scene{padding-top:120%}.bld{width:44%;height:19%}.path{top:38%}.signb{font-size:8px}.bot{font-size:14px}.room{font-size:8px}.ico{font-size:14px}.rooms{left:22px;right:4px}}
 @media (prefers-reduced-motion:reduce){*{-webkit-animation:none!important;animation:none!important;-webkit-transition:none!important;transition:none!important}}
-/* ===== premium station skin (overrides) ===== */
-:root{--glass:rgba(18,21,27,.55);--line:rgba(255,255,255,.09);--acc:#8eeaff;--warm:#ffc58a;--mut:#8b94a3}
-body{background:radial-gradient(ellipse at 50% 0,#151a22 0,#0a0c10 55%,#07090c 100%) fixed;color:#e6ebf2;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Segoe UI",Inter,Helvetica,Arial,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased}
+/* ===== command-deck skin (overrides; matches the 3D ship bridge) ===== */
+:root{--glass:rgba(14,18,24,.6);--line:rgba(255,255,255,.09);--acc:#7fe3ff;--warm:#ffb36b;--mut:#8b94a3}
+body{background:radial-gradient(ellipse at 50% -20%,#16202c 0,#090c11 55%,#05070a 100%) fixed;color:#e6ebf2;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Segoe UI",Inter,Helvetica,Arial,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased}
 .px{font-family:inherit;font-weight:400;letter-spacing:.04em}
 header{color:#fff;padding:22px 18px 12px}header h1{font-weight:500;font-size:15px;letter-spacing:.16em;text-transform:uppercase}header small{color:var(--mut)}
 button,select{background:var(--glass);border:1px solid var(--line);color:#dfe5ee;border-radius:999px;padding:6px 13px;font-family:inherit;font-weight:400}
 h2{color:var(--mut);font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;margin:30px 0 10px;text-shadow:none}a{color:var(--acc);text-decoration:none}
 .wait{background:var(--glass);border:1px solid var(--line);border-left:2px solid var(--warm);border-radius:12px;color:#e9dccd;padding:9px 14px}
-.wait b{color:var(--warm);font-weight:500}.wait span{background:none;border:1px solid rgba(255,197,138,.25);border-radius:999px}.wait.none{border-left-color:var(--acc);color:#cfe9f2}
-.scene{border:1px solid var(--line);border-radius:22px;background:#0b0d11;box-shadow:0 30px 80px rgba(0,0,0,.5)}
-.sky,.dawn .sky,.dusk .sky,.night .sky{background:linear-gradient(#05070a,#141a22);height:24%}.sky:after{display:none}
-.orb,.night .orb{background:#10141b;border-radius:50%;width:16%;padding-top:16%;top:4%;left:70%;box-shadow:0 0 0 1px rgba(191,233,255,.18),0 0 40px rgba(191,233,255,.12)}
-.stars{display:block}.star{width:2px;height:2px;border-radius:50%;background:#dfe8ff;opacity:.6;animation:none}
-.grass,.night .grass{filter:none;-webkit-filter:none;background:linear-gradient(#171b21,#0e1014);background-image:repeating-linear-gradient(90deg,transparent 0,transparent 59px,rgba(0,0,0,.35) 59px,rgba(0,0,0,.35) 60px),linear-gradient(#1a1e25,#0e1014)}
-.path{background:linear-gradient(90deg,transparent,rgba(142,234,255,.55) 15%,rgba(142,234,255,.55) 85%,transparent);height:1px;border-radius:0;box-shadow:0 0 8px rgba(142,234,255,.4)}
-.bld:focus .body,.bld:hover .body,.bld.sel .body{box-shadow:0 0 0 1px rgba(142,234,255,.6),0 18px 40px rgba(0,0,0,.5)}
-.roof{left:4%;right:4%;height:30%;border:0;border-radius:999px 999px 0 0;background:linear-gradient(#f2f5f8,#c9cfd8)!important;box-shadow:inset 0 -1px 0 rgba(0,0,0,.2)}
-.roof:before{display:none}
-.body{border:0;border-radius:0 0 16px 16px;background:linear-gradient(rgba(220,236,255,.12),rgba(220,236,255,.04))!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),0 12px 30px rgba(0,0,0,.45);transition:box-shadow .3s}
-.body:after{content:"";position:absolute;left:8%;right:8%;bottom:-1px;height:1px;background:var(--acc);opacity:.7}
-.signb{background:rgba(10,12,16,.6);border:0;border-bottom:1px solid var(--acc);color:#f0f6ff;border-radius:0;padding:2px 8px;box-shadow:none;animation:none;font-weight:400;letter-spacing:.12em;top:-8px}
-.ico{display:none}.rooms{left:8px}
-.room,.night .room{background:none;border:1px solid rgba(142,234,255,.4);color:#cfeef6;border-radius:999px;box-shadow:none}
-.room.planned{border-color:var(--line);color:var(--mut)}.room.paused{border-color:rgba(255,197,138,.5);color:var(--warm);text-decoration:none}
-.door{border:0;border-radius:999px 999px 0 0;background:linear-gradient(rgba(142,234,255,.25),transparent);opacity:1}
+.wait b{color:var(--warm);font-weight:500}.wait span{background:none;border:1px solid rgba(255,179,107,.25);border-radius:999px}.wait.none{border-left-color:var(--acc);color:#cfe9f2}
+.scene{border:1px solid var(--line);border-radius:22px;background:#07090d;box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 1px rgba(127,227,255,.06)}
+.sky,.dawn .sky,.dusk .sky,.night .sky{height:26%;background:radial-gradient(ellipse 75% 140% at 30% 165%,#3a6f99 0,#1d3b5a 56%,#0f2236 60%,rgba(111,196,255,.6) 61.5%,rgba(111,196,255,0) 68%),radial-gradient(ellipse at 50% 0,#0b1220,#03050a)}
+.sky:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0,transparent calc(12.5% - 4px),#2a3038 calc(12.5% - 4px),#2a3038 12.5%);border-bottom:6px solid #2a3038;box-shadow:inset 0 -1px 0 rgba(127,227,255,.6)}
+.orb,.night .orb{display:none}.stars{display:block}.star{width:2px;height:2px;border-radius:50%;background:#dfe8ff;opacity:.7}
+.grass,.night .grass{top:26%;filter:none;-webkit-filter:none;background:radial-gradient(ellipse at 50% 55%,rgba(127,227,255,.08),transparent 55%),repeating-linear-gradient(90deg,transparent 0,transparent 63px,rgba(0,0,0,.55) 63px,rgba(0,0,0,.55) 64px),repeating-linear-gradient(0deg,transparent 0,transparent 63px,rgba(0,0,0,.55) 63px,rgba(0,0,0,.55) 64px),linear-gradient(#1c2027,#101318)}
+.path{background:linear-gradient(90deg,transparent,rgba(127,227,255,.7) 15%,rgba(127,227,255,.7) 85%,transparent);height:1px;border-radius:0;box-shadow:0 0 10px rgba(127,227,255,.6)}
+.bld:focus .body,.bld:hover .body,.bld.sel .body{box-shadow:0 0 0 1px var(--ac),0 0 26px -6px var(--ac),0 18px 40px rgba(0,0,0,.6)}
+.roof{left:6%;right:6%;top:6%;height:24%;border:1px solid rgba(255,255,255,.08);border-radius:8px;background:linear-gradient(transparent 0 60%,rgba(127,227,255,.0) 60%),repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,transparent 1px 3px),linear-gradient(160deg,#0a2230,#06121a)!important;box-shadow:0 0 18px -4px var(--ac),inset 0 0 12px rgba(127,227,255,.12);z-index:1}
+.roof:before{display:block;content:"";position:absolute;left:8%;right:8%;bottom:14%;top:48%;background:linear-gradient(90deg,var(--ac) 0 6%,transparent 6% 10%,var(--ac) 10% 14%,transparent 14% 19%,var(--ac) 19% 22%,transparent 22% 27%,var(--ac) 27% 33%,transparent 33%);opacity:.55;-webkit-mask:linear-gradient(transparent 0,#000 100%);mask:linear-gradient(0deg,#000 0,#000 100%);animation:eq 2.4s steps(4) infinite}
+@keyframes eq{50%{transform:scaleY(.6);transform-origin:bottom}}
+.body{border:0;top:20%;border-radius:14px;background:linear-gradient(#262b33,#14171c)!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08),0 12px 30px rgba(0,0,0,.55);transition:box-shadow .3s}
+.body:after{content:"";position:absolute;left:6%;right:6%;bottom:-1px;height:2px;background:var(--ac);box-shadow:0 0 12px var(--ac);opacity:.9}
+.signb{background:rgba(6,9,12,.8);border:0;border-bottom:1px solid var(--ac);color:#f0f6ff;border-radius:0;padding:2px 8px;box-shadow:none;animation:none;font-weight:400;letter-spacing:.12em;top:24%;z-index:3;background:none;font-size:10px}
+.ico{display:none}.rooms{left:8px;top:auto;bottom:34%;z-index:2}
+.room,.night .room{background:rgba(0,0,0,.25);border:1px solid rgba(127,227,255,.4);color:#cfeef6;border-radius:999px;box-shadow:none}
+.room.planned{border-color:var(--line);color:var(--mut)}.room.paused{border-color:rgba(255,179,107,.5);color:var(--warm);text-decoration:none}
+.door{border:0;width:16%;height:50%;border-radius:4px 4px 0 0;background:repeating-linear-gradient(0deg,#3a414b 0 5px,#20252c 5px 7px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08),0 0 14px -6px var(--ac);opacity:1;animation:shut 14s ease-in-out infinite}
+@keyframes shut{0%,40%,100%{background-size:100% 100%}60%,80%{background-size:100% 20%;background-repeat:no-repeat;background-color:var(--ac)}}
 .bot.sleep:after{color:var(--mut)}.working .bot,.bot.working{animation:bob2 2.4s ease-in-out infinite}@keyframes bob2{50%{transform:translateY(-2px)}}
 .chick{display:none}
-.parcel i{background:rgba(10,12,16,.8);border:1px solid var(--line);color:#e6ebf2;border-radius:6px}
-.ticker{background:var(--glass);color:#cfd6e0;border:1px solid var(--line);border-top:0;border-radius:0 0 16px 16px;margin:0 14px;font-weight:300}
+.parcel i{background:rgba(6,9,12,.85);border:1px solid var(--line);color:#e6ebf2;border-radius:6px}
+.ticker{background:var(--glass);color:#cfeef6;border:1px solid var(--line);border-top:0;border-radius:0 0 16px 16px;margin:0 14px;font-weight:300;font-family:Menlo,Consolas,monospace;font-size:12px}
 .panel,.feed,.tl{background:var(--glass);border:1px solid var(--line);border-radius:16px;color:#e6ebf2;padding:12px}
 .muted,.feed .t{color:var(--mut)}
-.pill{border:1px solid var(--line);border-radius:999px;background:none;color:#cfd6e0}.pill.live{border-color:rgba(142,234,255,.5);color:var(--acc);background:none}.pill.planned{color:var(--mut);background:none}.pill.paused{border-color:rgba(255,197,138,.5);color:var(--warm);background:none}
-.kpi{background:rgba(255,255,255,.02);border:1px solid var(--line);border-radius:12px;padding:8px 10px}.kpi b{color:#fff;font-weight:300;font-size:20px;text-shadow:none}.kpi small{color:var(--mut)}
-.meter{background:rgba(255,255,255,.08);border:0;height:2px;border-radius:2px;overflow:hidden}.meter i{background:var(--acc);box-shadow:none}
+.pill{border:1px solid var(--line);border-radius:999px;background:none;color:#cfd6e0}.pill.live{border-color:rgba(127,227,255,.5);color:var(--acc);background:none}.pill.planned{color:var(--mut);background:none}.pill.paused{border-color:rgba(255,179,107,.5);color:var(--warm);background:none}
+.kpi{background:rgba(255,255,255,.02);border:1px solid var(--line);border-radius:12px;padding:8px 10px}.kpi b{color:#fff;font-weight:300;font-size:20px;text-shadow:0 0 12px rgba(127,227,255,.35)}.kpi small{color:var(--mut)}
+.meter{background:rgba(255,255,255,.08);border:0;height:2px;border-radius:2px;overflow:hidden}.meter i{background:var(--acc);box-shadow:0 0 8px var(--acc)}
 .board{background:none;border:1px solid var(--line);border-radius:12px}.col{background:none}.col h4{color:var(--mut);letter-spacing:.1em}.col h4 b{color:#fff}
-.card{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:8px;color:#e6ebf2}.card.old{border-color:rgba(255,197,138,.4);background:rgba(255,255,255,.035)}.card.blk{border-left:2px solid var(--warm);box-shadow:none}.card a{color:var(--acc)}
+.card{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:8px;color:#e6ebf2}.card.old{border-color:rgba(255,179,107,.4);background:rgba(255,255,255,.035)}.card.blk{border-left:2px solid var(--warm);box-shadow:none}.card a{color:var(--acc)}
 .feed li{border-bottom:1px solid var(--line)}.ty{background:none;border:1px solid var(--line);border-radius:999px;color:var(--mut)}.ty.handoff{background:none;color:var(--warm)}.ty.alert{background:none;color:#ff9a8a}.ty.publish{background:none;color:var(--acc)}
-.tl td,.tl th{border:0;border-bottom:1px solid var(--line)}.tl th.today{background:rgba(142,234,255,.08)}.tl td.today{background:rgba(142,234,255,.04)}
+.tl td,.tl th{border:0;border-bottom:1px solid var(--line)}.tl th.today{background:rgba(127,227,255,.08)}.tl td.today{background:rgba(127,227,255,.04)}
 .rt{background:none;border:0;border-left:1px solid var(--line);border-radius:0}.rt.next{background:none;border-left:2px solid var(--acc);color:#fff;font-weight:400}.rt.miss{background:none;border-left:2px solid var(--warm)}.rt.done{background:none;color:var(--mut)}
-.dot{border:0;border-radius:50%;width:6px;height:6px;vertical-align:middle}.g{background:var(--acc);box-shadow:none}.a{background:var(--warm);box-shadow:none}.r{background:#ff7a6b;box-shadow:none}
+.dot{border:0;border-radius:50%;width:6px;height:6px;vertical-align:middle}.g{background:var(--acc);box-shadow:0 0 6px var(--acc)}.a{background:var(--warm);box-shadow:none}.r{background:#ff7a6b;box-shadow:none}
+.b-barn{--ac:#ffb36b}.b-library{--ac:#9fb2ff}.b-workshop{--ac:#ff9a4a}.b-greenhouse{--ac:#8cffb0}.b-newsroom{--ac:#7fe3ff}.b-market{--ac:#ff8fbf}
 footer{color:var(--mut);padding:30px 14px}
 </style></head><body>
-<header><h1 class="px">VelnoriCo HQ · Orbital Station</h1><small id="upd" class="px">Loading…</small></header>
+<header><h1 class="px">VelnoriCo HQ · Command Deck</h1><small id="upd" class="px">Loading…</small></header>
 <div class="wrap" id="wrap">
 <div class="wait px" id="wait">Loading…</div>
-<div style="text-align:right"><a href="index.html" style="margin-right:12px">← 3D station</a><button id="tview" type="button">Text-only view</button></div>
+<div style="text-align:right"><a href="index.html" style="margin-right:12px">← 3D deck</a><button id="tview" type="button">Text-only view</button></div>
 <div class="scene" id="scene">
  <div class="sky"></div><div class="orb" id="orb"></div>
  <div class="stars"><i class="star" style="left:12%;top:5%"></i><i class="star" style="left:36%;top:12%;animation-delay:1s"></i><i class="star" style="left:63%;top:6%;animation-delay:.5s"></i><i class="star" style="left:88%;top:14%"></i></div>
@@ -149,7 +152,7 @@ footer{color:var(--mut);padding:30px 14px}
 </div>
 <div class="ticker px"><div id="tick">Loading activity…</div></div>
 <div id="detail"></div>
-<h2 class="px">▶ STATION KPIs <small class="muted" style="color:#8a94bf">(counts &amp; ratios only)</small></h2><div class="panel" id="kpis"></div>
+<h2 class="px">▶ DECK KPIs <small class="muted" style="color:#8a94bf">(counts &amp; ratios only)</small></h2><div class="panel" id="kpis"></div>
 <h2 class="px">▶ SCALING-TRIGGER METERS</h2><div class="panel grid" id="gates"></div>
 <h2 class="px">▶ HEALTH</h2><div class="panel health" id="health"></div>
 <h2 class="px">▶ WEEKLY ROUTINES <small class="muted" style="color:#8a94bf">(Eastern Time)</small></h2><div class="tl" id="tl"></div>
