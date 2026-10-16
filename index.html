@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>VelnoriCo HQ · Orbital Station</title>
+<title>VelnoriCo HQ · Command Deck</title>
 <style>
 *{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:#07090c;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Segoe UI",Inter,Helvetica,Arial,sans-serif;font-weight:300;color:#e6ebf2;-webkit-font-smoothing:antialiased;letter-spacing:.01em}
 #world{position:fixed;inset:0}#world canvas{display:block;touch-action:none}
@@ -54,16 +54,16 @@ select{font-size:12px;margin:3px;max-width:46%;background:rgba(255,255,255,.04);
 <div id="info"><button class="x" type="button" onclick="this.parentNode.style.display='none'">✕</button><h2 id="infoT"></h2><div id="infoB"></div></div>
 <div id="drawer"><button class="x" type="button" onclick="document.getElementById('drawer').className=''">✕</button>
  <div class="tabs"><button data-p="pOver" class="on" type="button">Overview</button><button data-p="pPlaces" type="button">Places</button><button data-p="pFeed" type="button">Feed</button><button data-p="pTl" type="button">Routines</button><button data-p="pTeam" type="button">Team</button></div>
- <div class="pane on" id="pOver"><h3>Station KPIs <span class="muted">(counts &amp; ratios only)</span></h3><div id="kpis"></div><h3>Scaling-trigger meters</h3><div id="gates"></div><h3>Health</h3><div class="health" id="health"></div></div>
- <div class="pane" id="pPlaces"><h3>Station rooms · tap to fly there and open pipelines</h3><div class="places">
-  <a href="#" data-bld="barn">Etsy Studio</a><a href="#" data-bld="library">Payhip Archive</a><a href="#" data-bld="workshop">Apify/Chrome Lab</a><a href="#" data-bld="greenhouse">Adobe Stock Garden</a><a href="#" data-bld="newsroom">Content Broadcast</a><a href="#" data-bld="market">Fiverr Lounge</a><a href="#" data-bld="plaza">Central Atrium</a></div></div>
+ <div class="pane on" id="pOver"><h3>Deck KPIs <span class="muted">(counts &amp; ratios only)</span></h3><div id="kpis"></div><h3>Scaling-trigger meters</h3><div id="gates"></div><h3>Health</h3><div class="health" id="health"></div></div>
+ <div class="pane" id="pPlaces"><h3>Bays · tap to fly there and open pipelines</h3><div class="places">
+  <a href="#" data-bld="barn">Etsy Studio</a><a href="#" data-bld="library">Payhip Archive</a><a href="#" data-bld="workshop">Apify/Chrome Lab</a><a href="#" data-bld="greenhouse">Adobe Stock Garden</a><a href="#" data-bld="newsroom">Content Broadcast</a><a href="#" data-bld="market">Fiverr Lounge</a><a href="#" data-bld="plaza">Command Deck</a></div></div>
  <div class="pane" id="pFeed"><h3>Activity feed</h3><select id="fl"></select><select id="fi"></select><select id="fb"></select><select id="ft"></select><ul class="feed" id="feed"></ul></div>
  <div class="pane" id="pTl"><h3>Weekly routines (Eastern Time)</h3><div class="tl" id="tl"></div></div>
  <div class="pane" id="pTeam"><h3>Team · tap a bot to find it</h3><div id="cards"></div></div>
  <p class="muted">Public status board · no money figures, ever · refreshes every 60 s (GitHub Pages may cache ~10 min).</p></div>
-<div class="sky" id="sky"></div><div class="hint">drag: orbit · right-drag/two fingers: pan · scroll/pinch: zoom · click a bot or room</div>
+<div class="sky" id="sky"></div><div class="hint">drag: orbit · right-drag/two fingers: pan · scroll/pinch: zoom · click a bot or bay</div>
 <div id="toast"></div>
-<script src="vendor/three.min.js"></script><script src="vendor/OrbitControls.js"></script><script src="vendor/RoomEnvironment.js"></script><script src="panels.js"></script>
+<script src="vendor/three.min.js"></script><script src="vendor/OrbitControls.js"></script><script src="vendor/RoomEnvironment.js"></script><script src="vendor/EffectComposer.js"></script><script src="vendor/CopyShader.js"></script><script src="vendor/ShaderPass.js"></script><script src="vendor/MaskPass.js"></script><script src="vendor/RenderPass.js"></script><script src="vendor/LuminosityHighPassShader.js"></script><script src="vendor/UnrealBloomPass.js"></script><script src="vendor/FXAAShader.js"></script><script src="vendor/Reflector.js"></script><script src="vendor/RoundedBoxGeometry.js"></script><script src="panels.js"></script>
 <script>
 (function(){var d=document.getElementById("drawer");document.getElementById("menu").onclick=function(){d.className=d.className?"":"open";};
 var tb=d.querySelectorAll(".tabs button");for(var i=0;i<tb.length;i++)tb[i].onclick=function(){for(var j=0;j<tb.length;j++){tb[j].className="";document.getElementById(tb[j].getAttribute("data-p")).className="pane";}this.className="on";document.getElementById(this.getAttribute("data-p")).className="pane on";};
